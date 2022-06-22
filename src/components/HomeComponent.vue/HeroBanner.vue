@@ -75,20 +75,20 @@
   flex-direction: column;
   margin: 0 auto;
   text-align: center;
-  background-image: url(../assets/background.jpeg);
+  background-image: url(../../assets/background.jpeg);
   background-size: cover;
-  height: 100%;
+  height: 520px;
+  color: #3c3c3c;
 }
 
 .menu-btn {
-  border: 2px solid black;
+  border: 2px solid #3c3c3c;
   border-radius: 8px;
   padding: 5px 10px;
   margin: 0 215px;
 }
 .menu-btn:hover {
   border: 2px solid #ee161f;
-  text-decoration: underline 2px #ee161f;
   font-weight: 600;
 }
 
@@ -96,10 +96,17 @@
   .container {
     display: flex;
     align-items: center;
+    height: 600px;
   }
   .menu-btn {
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media (min-width: 1450px) {
+  .container {
+    height: 650px;
   }
 }
 </style>
