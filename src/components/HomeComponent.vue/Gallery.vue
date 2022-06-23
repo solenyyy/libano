@@ -17,8 +17,8 @@
         este establecimiento, situado en la calle Santiago Cuadrado.
       </p>
       <div class="btn-container">
-        <router-link to="/menu">
-          <button class="menu-btn">VER LA CARTA</button>
+        <router-link class="menu-btn" to="/menu" @click="scrollToTop">
+          VER LA CARTA
         </router-link>
       </div>
     </div>
@@ -67,6 +67,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
   },
 };
 </script>

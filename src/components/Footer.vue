@@ -12,6 +12,13 @@
             ></v-btn
           >
           <v-btn class="mx-4" icon>
+            <a :href="glovo" target="_blank">
+              <img
+                class="glovo"
+                src="../assets/logo_yellow_small.svg"
+                alt="" /></a
+          ></v-btn>
+          <v-btn class="mx-4" icon>
             <a :href="path" target="_blank">
               <v-icon large color="#00a850">mdi-facebook </v-icon></a
             ></v-btn
@@ -34,6 +41,7 @@ export default {
   data() {
     return {
       path: "https://es-es.facebook.com/restauranteellibano/",
+      glovo: "https://glovoapp.com/es/es/tenerife/el-libano-tenerife/",
     };
   },
 };
@@ -56,5 +64,9 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
+}
+.glovo {
+  margin: 4px 4px 0 0;
+  width: 25px;
 }
 </style>

@@ -2,13 +2,19 @@
   <v-expansion-panels class="container-panel">
     <v-expansion-panel class="flex" v-for="item in items" :key="item">
       <v-list-item-title class="title"
-        ><strong>{{ item.title }}</strong></v-list-item-title
+        ><strong
+          ><u> {{ item.title }}</u></strong
+        ></v-list-item-title
       >
       <v-expansion-panel-header class="flex-2">
-        <div class="item1">{{ item.name }}</div>
+        <div class="item1">
+          <strong>{{ item.name }}</strong>
+        </div>
         <div class="item3">
           {{ item.price }}
-          <v-icon @click="toggle(item)">mdi-chevron-down</v-icon>
+          <v-icon @click="toggle(item)"
+            ><strong>mdi-chevron-down</strong>
+          </v-icon>
         </div>
       </v-expansion-panel-header>
       <v-expansion-panel-content class="desc" v-show="item.isActive">
@@ -126,24 +132,24 @@ export default {
           title: "CREMAS",
           name: "Mtabal",
           desc: "Berenjenas molidas con Tahine*",
-          price: "4,50€",
+          price: "7,25€",
         },
         {
           name: "Hommus",
           desc: "Garbanzas molidas con Tahine*",
-          price: "4,50€",
+          price: "7,25€",
           pic: "https://res.cloudinary.com/dleqykpqi/image/upload/v1655907724/1-Hommos-__fwqvad.jpg",
         },
         {
           name: "Hommus Blahem",
           desc: "Garbanzas molidas con carne",
-          price: "4,50€",
+          price: "7,95€",
         },
-        { name: "Labne", desc: "Crema de yogurt con nueces", price: "4,50€" },
+        { name: "Labne", desc: "Crema de yogurt con nueces", price: "7,25€" },
         {
           name: "Babaganush",
           desc: "Berenjena ahumada con verduras",
-          price: "4,50€",
+          price: "7,95€",
         },
         {
           title: "EMPANADAS",
@@ -367,7 +373,7 @@ p {
 }
 .food-pic {
   width: 8%;
-  border-radius: 50%;
+  padding-bottom: 3px;
 }
 .igic {
   margin-top: 10px;

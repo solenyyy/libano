@@ -10,7 +10,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/restaurant.png" alt="" />
       <div class="arrow">→</div>
-      <div class="wrapper" data-aos="fade-right" data-aos-duration="1500">
+      <div class="wrapper" data-aos="fade-right" data-aos-duration="1700">
         <h2>¿Quiénes Somos?</h2>
         <p class="texto">
           Con 17 años, <strong> Alí Mohsen</strong>, propietario de El Líbano,
@@ -107,7 +107,7 @@ p {
     display: none;
   }
   .icon {
-    width: 50px;
+    width: 60px;
   }
   .wrapper,
   .spacer {

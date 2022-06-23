@@ -9,13 +9,22 @@
       </div>
     </div>
     <div class="btn-container">
-      <router-link to="/menu">
-        <button class="menu-btn">NUESTRA CARTA</button>
+      <router-link class="menu-btn" to="/menu" @click="scrollToTop">
+        NUESTRA CARTA
       </router-link>
     </div>
   </div>
 </template>
-<script></script>
+<script>
+export default {
+  name: "HeroBanner",
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
+};
+</script>
 <style scoped>
 @-webkit-keyframes fade-in {
   0%,
