@@ -17,7 +17,9 @@
         este establecimiento, situado en la calle Santiago Cuadrado.
       </p>
       <div class="btn-container">
-        <button class="menu-btn">VER LA CARTA</button>
+        <router-link to="/menu">
+          <button class="menu-btn">VER LA CARTA</button>
+        </router-link>
       </div>
     </div>
   </div>
@@ -69,6 +71,12 @@ export default {
 };
 </script>
 <style scoped>
+a:link,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
+}
 .section-menu {
   color: #3c3c3c;
   display: flex;
@@ -76,7 +84,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin: 0 60px;
-  height: 500px;
+  height: 450px;
 }
 .container-carousel {
   width: 50%;
@@ -109,7 +117,8 @@ p {
 @media (max-width: 600px) {
   .section-menu {
     flex-direction: column;
-    margin: 0 30px;
+    margin: 20px 30px;
+    height: 550px;
   }
   .container-carousel,
   .container-info {

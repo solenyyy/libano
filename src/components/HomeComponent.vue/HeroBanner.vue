@@ -9,7 +9,9 @@
       </div>
     </div>
     <div class="btn-container">
-      <button class="menu-btn">NUESTRA CARTA</button>
+      <router-link to="/menu">
+        <button class="menu-btn">NUESTRA CARTA</button>
+      </router-link>
     </div>
   </div>
 </template>
@@ -65,7 +67,7 @@
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
-  margin: 60px 60px 50px 60px;
+  margin: 90px 60px 50px 60px;
 }
 
 .container {
@@ -108,5 +110,11 @@
   .container {
     height: 650px;
   }
+}
+a:link,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
 }
 </style>

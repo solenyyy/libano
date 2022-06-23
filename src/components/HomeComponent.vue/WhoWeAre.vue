@@ -96,12 +96,12 @@ p {
 
 @media (max-width: 600px) {
   .container-grey {
-    padding: 50px 2px;
+    padding: 50px 2px 10px 2px;
   }
   .timeline {
     justify-content: space-around;
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
   .query {
     display: none;
