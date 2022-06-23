@@ -1,16 +1,5 @@
 <template>
   <div class="container-booking">
-    <div class="info-booking">
-      <h2>Contacto y Reservas</h2>
-      <p><strong> Dirección:</strong></p>
-      <p>Calle de Santiago Cuadrado, 36. 38006.</p>
-      <p>Santa Cruz de Tenerife.</p>
-      <p><strong> Teléfonos:</strong></p>
-      <p>
-        <a href="tel:+34922285914">922 28 59 14</a> <br />
-        <a href="tel:+34922282542">922 28 25 42</a>
-      </p>
-    </div>
     <div class="maps">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1042.7531178740512!2d-16.26385304440926!3d28.46781633664787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cc860b861375%3A0xe930acdb61803a26!2sRestaurante%20El%20L%C3%ADbano!5e0!3m2!1ses!2ses!4v1655909725334!5m2!1ses!2ses"
@@ -21,6 +10,17 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
+    </div>
+    <div class="info-booking">
+      <h2>Contacto y Reservas</h2>
+      <p><strong> Dirección:</strong></p>
+      <p>Calle de Santiago Cuadrado, 36. 38006.</p>
+      <p>Santa Cruz de Tenerife.</p>
+      <p><strong> Teléfonos:</strong></p>
+      <p>
+        <a href="tel:+34922285914">922 28 59 14</a> <br />
+        <a href="tel:+34922282542">922 28 25 42</a>
+      </p>
     </div>
   </div>
 </template>
@@ -49,10 +49,16 @@ p {
 a {
   margin: 0 auto;
 }
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #3c3c3c;
+}
 @media (max-width: 600px) {
   .container-booking {
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 43rem;
   }
   .info-booking {

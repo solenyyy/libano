@@ -122,13 +122,16 @@ p {
 @media (max-width: 600px) {
   .section-menu {
     flex-direction: column;
-    margin: 20px 30px;
+    margin: 20px 20px;
     height: 550px;
   }
   .container-carousel,
   .container-info {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .menu-btn {
+    padding: 6px 115px;
   }
 }
 </style>

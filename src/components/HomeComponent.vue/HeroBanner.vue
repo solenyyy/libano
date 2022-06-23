@@ -2,7 +2,7 @@
   <div class="container">
     <div class="aggettivi">
       <div class="text">
-        <div class="text-animated-one">Rest. El Líbano</div>
+        <div class="text-animated-one">Restaurante El Líbano</div>
       </div>
       <div class="text">
         <div class="text-animated-two">مطعم لبنان</div>
@@ -10,7 +10,7 @@
     </div>
     <div class="btn-container">
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
-        NUESTRA CARTA
+        CARTA ONLINE
       </router-link>
     </div>
   </div>
@@ -64,9 +64,9 @@ export default {
   -webkit-animation: fade-in 5.5s 3;
   -webkit-animation-delay: 750ms;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
-  margin: 0 auto;
+
   width: 100%;
   transform: translateY(15px);
 }
@@ -96,7 +96,7 @@ export default {
   border: 2px solid #3c3c3c;
   border-radius: 8px;
   padding: 5px 10px;
-  margin: 0 215px;
+  margin: 0 240px;
 }
 .menu-btn:hover {
   border: 2px solid #ee161f;
@@ -104,14 +104,21 @@ export default {
 }
 
 @media (max-width: 600px) {
+  .aggettivi {
+    font-size: 3rem;
+    margin: 90px 60px 140px 60px;
+  }
   .container {
     display: flex;
     align-items: center;
     height: 600px;
   }
   .menu-btn {
-    width: 100%;
-    margin: 0 auto;
+    padding: 12px 120px;
+    margin: 0 auto 20px auto;
+  }
+
+  .btn-container {
   }
 }
 
