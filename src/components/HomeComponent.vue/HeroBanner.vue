@@ -15,11 +15,7 @@
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
         CARTA ONLINE
       </router-link>
-    </div>
-    <div class="btn-container-2">
-      <router-link class="menu-btn-2" to="/menu" @click="scrollToTop">
-        RESERVA
-      </router-link>
+      <router-link class="menu-btn-2" to="/menu"> RESERVA </router-link>
     </div>
   </div>
 </template>
@@ -131,6 +127,7 @@ export default {
   }
   .menu-btn-2 {
     display: inline-block;
+    margin-top: 20px;
     padding: 9px 132px;
     background-color: #00a850;
     border: 2px solid #00a850;
