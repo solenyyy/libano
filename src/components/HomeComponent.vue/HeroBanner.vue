@@ -2,10 +2,7 @@
   <div class="container">
     <div class="aggettivi">
       <div class="text">
-        <div class="text-animated-one">
-          Restaurante <br />
-          El Líbano
-        </div>
+        <div class="text-animated-one">Restaurante El Líbano</div>
       </div>
       <div class="text">
         <div class="text-animated-two">مطعم لبنان</div>
@@ -112,7 +109,7 @@ export default {
 @media (max-width: 600px) {
   .aggettivi {
     font-size: 3rem;
-    margin: 100px 50px 140px 50px;
+    margin: 120px 60px 140px 60px;
   }
   .container {
     display: flex;
@@ -122,6 +119,7 @@ export default {
   .text-animated-two {
     justify-content: center;
     margin-right: 6px;
+    transform: translateY(9px);
   }
   .menu-btn {
     padding: 12px 110px;

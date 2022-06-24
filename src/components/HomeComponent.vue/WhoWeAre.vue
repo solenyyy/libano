@@ -10,7 +10,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/restaurant.png" alt="" />
 
-      <div class="wrapper" data-aos="fade-down" data-aos-duration="1700">
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="1700">
         <h2>¿Quiénes somos?</h2>
         <p class="texto">
           Con 17 años, <strong> Alí Mohsen</strong>, propietario de El Líbano,
@@ -40,7 +40,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/fast-delivery.png" alt="" />
 
-      <div class="wrapper" data-aos="fade-down" data-aos-duration="1500">
+      <div class="wrapper" data-aos="fade-up" data-aos-duration="1500">
         <h2>Comida a domicilio</h2>
         <p class="texto">
           <u>Abierto todos los días,</u> domingos y festivos incluidos, se puede
@@ -102,7 +102,7 @@ p {
 
 @media (max-width: 600px) {
   .container-grey {
-    padding: 50px 2px 10px 2px;
+    padding: 70px 2px 10px 2px;
   }
   .timeline {
     justify-content: space-around;

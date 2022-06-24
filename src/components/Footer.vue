@@ -34,7 +34,13 @@
             >C/ Santiago Cuadrado, 36. Santa Cruz de Tenerife. Tlf: 922 28 59 14
           </strong>
 
-          © {{ new Date().getFullYear() }}. Diseño y desarrollo: Soleny.
+          © {{ new Date().getFullYear() }}. <br />
+          <p class="designed">
+            Diseño y Desarrollo:
+            <a target="_blank" href="https://www.linkedin.com/in/soleny-yumare/"
+              >Soleny.</a
+            >
+          </p>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -66,6 +72,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
 }
 a:link,
 a:visited,
@@ -76,5 +83,8 @@ a:active {
 .glovo {
   margin: 4px 4px 0 0;
   width: 25px;
+}
+.designed {
+  font-size: 10px;
 }
 </style>

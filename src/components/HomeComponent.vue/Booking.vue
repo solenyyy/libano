@@ -16,15 +16,16 @@
       <p class="title"><strong> HORARIO</strong></p>
       <p>
         <strong> Lunes a Domingo</strong> <br />
-        13:00 a 16:00 y de 20:00 a 23:00
+        13:00 a 16:00 y de 20:00 a 23:30
       </p>
       <p class="title"><strong> DIRECCIÓN</strong></p>
       <p>Calle de Santiago Cuadrado, 36. 38006.</p>
       <p>Santa Cruz de Tenerife.</p>
+      <p>-<u>Disponemos de parking privado-</u></p>
       <p class="title"><strong> TELÉFONOS</strong></p>
       <p class="bottom">
-        <a href="tel:+34922285914">922 28 59 14</a> -
-        <a href="tel:+34922282542">922 28 25 42</a>
+        <a href="tel:+34922285914">+34 922 28 59 14</a> -
+        <a href="tel:+34922282542">+34 922 28 25 42</a>
       </p>
     </div>
   </div>

@@ -24,5 +24,6 @@ export default {
 #app {
   color: #3c3c3c;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 </style>
