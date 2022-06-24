@@ -65,7 +65,7 @@ export default {
 .container-footer {
 }
 .v-footer {
-  border-top: 0.5px solid rgba(128, 128, 128, 0.29);
+  border-top: 0px solid rgba(128, 128, 128, 0.29);
   -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);

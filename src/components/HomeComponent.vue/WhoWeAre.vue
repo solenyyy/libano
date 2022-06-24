@@ -67,7 +67,7 @@ export default {};
 .h1 {
   font-size: 39px;
   text-align: left;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   font-style: italic;
   margin-left: 15px;
   letter-spacing: -1px;

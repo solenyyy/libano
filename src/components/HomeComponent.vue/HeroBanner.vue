@@ -109,12 +109,12 @@ export default {
 @media (max-width: 600px) {
   .aggettivi {
     font-size: 3rem;
-    margin: 120px 60px 140px 60px;
+    margin: 120px 70px 140px 70px;
   }
   .container {
     display: flex;
     align-items: center;
-    height: 600px;
+    height: 670px;
   }
   .text-animated-two {
     justify-content: center;
@@ -128,14 +128,14 @@ export default {
   .menu-btn-2 {
     display: inline-block;
     margin-top: 20px;
+
     padding: 9px 132px;
     background-color: #00a850;
     border: 2px solid #00a850;
     color: white !important;
   }
-
-  .btn-container-2 {
-    margin-top: 30px;
+  .btn-container {
+    margin-top: 20px;
   }
 }
 
