@@ -20,8 +20,6 @@ export default {
   margin-right: 15px;
 }
 .v-app-bar {
-  width: 99.9% !important;
-
   box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.091),
     0px 3px 2px 0px rgba(48, 48, 48, 0.011),
     0px 1px 10px 0px rgba(0, 0, 0, 0.062) !important;

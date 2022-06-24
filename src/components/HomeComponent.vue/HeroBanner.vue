@@ -2,7 +2,10 @@
   <div class="container">
     <div class="aggettivi">
       <div class="text">
-        <div class="text-animated-one">Restaurante El Líbano</div>
+        <div class="text-animated-one">
+          Restaurante <br />
+          El Líbano
+        </div>
       </div>
       <div class="text">
         <div class="text-animated-two">مطعم لبنان</div>
@@ -59,8 +62,7 @@ export default {
   justify-content: center;
   -webkit-animation: fade-in 5.5s 3;
   text-align: center;
-  margin: 0 auto;
-  width: 100%;
+  letter-spacing: -3px;
 }
 
 .text-animated-two {
@@ -71,7 +73,7 @@ export default {
   display: flex;
   justify-content: flex-start;
   text-align: center;
-  transform: translateY(15px);
+  transform: translateY(12px);
 }
 
 .aggettivi {
@@ -83,7 +85,6 @@ export default {
 }
 
 .container {
-  width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -95,23 +96,25 @@ export default {
   color: #3c3c3c;
 }
 
-.menu-btn,
-.menu-btn-2 {
+.menu-btn {
   border: 2px solid #3c3c3c;
-
   padding: 5px 10px;
   margin: 0 240px;
 }
+
+.menu-btn-2 {
+  display: none;
+}
 .menu-btn:hover,
 .menu-btn-2:hover {
-  border: 2px solid #ee161f;
+  border: 3px solid #3c3c3c;
   font-weight: 600;
 }
 
 @media (max-width: 600px) {
   .aggettivi {
     font-size: 3rem;
-    margin: 80px 60px 140px 60px;
+    margin: 80px 50px 140px 50px;
   }
   .container {
     display: flex;
@@ -120,16 +123,17 @@ export default {
   }
   .text-animated-two {
     justify-content: center;
-    margin-right: 18px;
+    margin-right: 6px;
   }
   .menu-btn {
-    padding: 12px 115px;
+    padding: 12px 110px;
     margin: 0 auto 20px auto;
   }
   .menu-btn-2 {
-    padding: 12px 138px;
+    display: inline-block;
+    padding: 9px 132px;
     background-color: #00a850;
-    border: 2px solid #018440;
+    border: 2px solid #00a850;
     color: white !important;
   }
 

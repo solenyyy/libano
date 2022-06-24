@@ -25,12 +25,12 @@
           >
         </v-card-title>
 
-        <v-card-text class="py-2 white--text text-center">
+        <v-card-text class="py-2 white--text develop">
           <strong
             >C/ Santiago Cuadrado, 36. Santa Cruz de Tenerife. Tlf: 922 28 59 14
-            ©</strong
-          >
-          - {{ new Date().getFullYear() }}. <br />Diseño: Soleny.
+          </strong>
+
+          © {{ new Date().getFullYear() }}. Diseño y desarrollo: Soleny.
         </v-card-text>
       </v-card>
     </v-footer>
@@ -56,10 +56,8 @@ export default {
   box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
 }
-
 a:link,
 a:visited,
 a:active {

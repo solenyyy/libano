@@ -9,7 +9,7 @@
     <div class="timeline">
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/restaurant.png" alt="" />
-      <div class="arrow">→</div>
+
       <div class="wrapper" data-aos="fade-right" data-aos-duration="1700">
         <h2>¿Quiénes somos?</h2>
         <p class="texto">
@@ -32,14 +32,14 @@
           el día a día.
         </p>
       </div>
-      <div class="arrow">←</div>
+
       <img class="icon" src="../../assets/vegetables-line.png" alt="" />
       <div class="wrapper query"></div>
     </div>
     <div class="timeline">
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/fast-delivery.png" alt="" />
-      <div class="arrow">→</div>
+
       <div class="wrapper" data-aos="fade-right" data-aos-duration="1500">
         <h2>Comida a domicilio</h2>
         <p class="texto">
@@ -56,8 +56,9 @@
 export default {};
 </script>
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 .container-grey {
-  font-size: 17px;
+  font-size: 18px;
   color: #3c3c3c;
   width: 100%;
   padding: 50px 20px;
@@ -72,6 +73,7 @@ export default {};
   letter-spacing: -1px;
 }
 .timeline {
+  font-family: "Roboto Condensed", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-evenly;

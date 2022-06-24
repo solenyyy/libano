@@ -3,7 +3,7 @@
     <div class="maps">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1042.7531178740512!2d-16.26385304440926!3d28.46781633664787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cc860b861375%3A0xe930acdb61803a26!2sRestaurante%20El%20L%C3%ADbano!5e0!3m2!1ses!2ses!4v1655909725334!5m2!1ses!2ses"
-        width="380"
+        width="370"
         height="300"
         style="border: 0"
         allowfullscreen=""
@@ -15,7 +15,7 @@
       <h2 class="h2">CONTACTO</h2>
       <p class="title"><strong> HORARIO</strong></p>
       <p>
-        Lunes a Domingo <br />
+        <strong> Lunes a Domingo</strong> <br />
         13:00 a 16:00 y de 20:00 a 23:00
       </p>
       <p class="title"><strong> DIRECCIÓN</strong></p>
@@ -23,7 +23,7 @@
       <p>Santa Cruz de Tenerife.</p>
       <p class="title"><strong> TELÉFONOS</strong></p>
       <p class="bottom">
-        <a href="tel:+34922285914">922 28 59 14</a> <br />
+        <a href="tel:+34922285914">922 28 59 14</a> -
         <a href="tel:+34922282542">922 28 25 42</a>
       </p>
     </div>
@@ -32,10 +32,10 @@
 <script></script>
 <style scoped>
 .container-booking {
-  font-size: 17px;
+  font-size: 18px;
   height: 450px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
   align-items: center;
   color: 3c3c3c;
@@ -48,6 +48,7 @@
   font-size: 40px;
   text-align: center;
   padding-bottom: 15px;
+  letter-spacing: -4px;
 }
 .title {
   padding: 5px;
@@ -56,6 +57,7 @@
 }
 p {
   text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .bottom {

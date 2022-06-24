@@ -10,7 +10,7 @@
       </v-carousel>
     </div>
     <div class="container-info">
-      <h2>Nuestra Carta</h2>
+      <h2>NUESTRA CARTA</h2>
       <p>
         Una carta tradicional aunque sujeta a la innovación permanente es la
         característica principal de la cocina libanesa que puede degustarse en
@@ -104,9 +104,11 @@ h2 {
   text-align: center;
   padding-bottom: 20px;
   margin: 0;
+  letter-spacing: -4px;
 }
 p {
   text-align: left;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .btn-container {
   margin-top: 30px;
@@ -117,13 +119,13 @@ p {
   padding: 5px 10px;
 }
 .menu-btn:hover {
-  border: 2px solid #ee161f;
+  border: 3px solid #3c3c3c;
   font-weight: 600;
 }
 @media (max-width: 600px) {
   .section-menu {
     flex-direction: column;
-    margin: 20px 20px;
+    margin: 30px 20px;
     height: 550px;
   }
   .container-carousel,
@@ -132,7 +134,7 @@ p {
     margin-bottom: 20px;
   }
   .menu-btn {
-    padding: 12px 115px;
+    padding: 12px 105px;
   }
 }
 </style>
