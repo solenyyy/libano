@@ -2,7 +2,7 @@
   <HeroBanner />
   <WhoWeAre />
   <Gallery />
-  <Booking />
+  <Booking id="anchor" />
 </template>
 
 <script>

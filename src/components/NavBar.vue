@@ -1,8 +1,10 @@
 <template>
   <nav class="navbar">
-    <router-link to="/">
-      <img class="icon" src="../assets/tree.png" alt="bandera del líbano" />
-    </router-link>
+    <div class="below-nav">
+      <router-link to="/">
+        <img class="icon" src="../assets/tree.png" alt="bandera del líbano" />
+      </router-link>
+    </div>
   </nav>
 </template>
 <script>
@@ -19,12 +21,14 @@ export default {
 .navbar {
   display: flex;
   align-items: center;
-  position: fixed;
-
-  box-sizing: border-box;
+  position: sticky;
+  background-color: transparent;
   top: 0;
   left: 0;
-  width: 99.9%;
-  height: 50px;
+  width: 100%;
+  height: 55px;
+}
+.below-nav {
+  padding: 3em 0 3em;
 }
 </style>

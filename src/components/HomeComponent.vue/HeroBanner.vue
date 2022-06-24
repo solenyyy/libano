@@ -15,7 +15,8 @@
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
         CARTA ONLINE
       </router-link>
-      <router-link class="menu-btn-2" to="/menu"> RESERVA </router-link>
+
+      <a href="#" v-scroll-to="'#anchor'" class="menu-btn-2"> RESERVA </a>
     </div>
   </div>
 </template>
@@ -111,7 +112,7 @@ export default {
 @media (max-width: 600px) {
   .aggettivi {
     font-size: 3rem;
-    margin: 120px 50px 140px 50px;
+    margin: 100px 50px 140px 50px;
   }
   .container {
     display: flex;

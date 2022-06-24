@@ -1,5 +1,4 @@
 <template>
-  <nav-bar></nav-bar>
   <v-expansion-panels class="container-panel">
     <v-expansion-panel class="flex" v-for="item in items" :key="item">
       <v-list-item-title class="title"
@@ -90,7 +89,6 @@
   </div>
 </template>
 <script>
-import NavBar from "../NavBar.vue";
 export default {
   name: "Carta",
   data() {
@@ -318,7 +316,6 @@ export default {
       item.isActive = !item.isActive;
     },
   },
-  components: { NavBar },
 };
 </script>
 <style scoped>

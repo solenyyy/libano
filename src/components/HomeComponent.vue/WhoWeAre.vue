@@ -1,7 +1,7 @@
 <template>
   <div class="container-grey">
     <div>
-      <div class="h1" data-aos="zoom-out" data-aos-duration="1000">
+      <div class="h1">
         40 años de <strong>auténtica</strong> comida libanesa
       </div>
     </div>
@@ -10,7 +10,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/restaurant.png" alt="" />
 
-      <div class="wrapper" data-aos="fade-right" data-aos-duration="1700">
+      <div class="wrapper" data-aos="fade-down" data-aos-duration="1700">
         <h2>¿Quiénes somos?</h2>
         <p class="texto">
           Con 17 años, <strong> Alí Mohsen</strong>, propietario de El Líbano,
@@ -23,7 +23,7 @@
     </div>
 
     <div class="timeline">
-      <div class="spacer" data-aos="fade-left" data-aos-duration="1500">
+      <div class="spacer" data-aos="fade-up" data-aos-duration="1500">
         <h2>¿Cómo lo hacemos?</h2>
         <p class="middle">
           La clave del éxito del restaurante es
@@ -40,7 +40,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/fast-delivery.png" alt="" />
 
-      <div class="wrapper" data-aos="fade-right" data-aos-duration="1500">
+      <div class="wrapper" data-aos="fade-down" data-aos-duration="1500">
         <h2>Comida a domicilio</h2>
         <p class="texto">
           <u>Abierto todos los días,</u> domingos y festivos incluidos, se puede
