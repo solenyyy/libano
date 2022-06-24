@@ -82,5 +82,8 @@ a:active {
   .info-booking {
     width: 100%;
   }
+  .title {
+    color: #b9935a;
+  }
 }
 </style>

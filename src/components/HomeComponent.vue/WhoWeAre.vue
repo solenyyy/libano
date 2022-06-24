@@ -101,6 +101,9 @@ p {
 }
 
 @media (max-width: 600px) {
+  h2 {
+    color: #b9935a;
+  }
   .container-grey {
     padding: 70px 2px 10px 2px;
   }
