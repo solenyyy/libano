@@ -53,7 +53,7 @@ export default {
 .text-animated-one {
   display: inline;
   position: relative;
-  top: 0px;
+  right: 0px;
   display: flex;
   justify-content: center;
   -webkit-animation: fade-in 5.5s 3;
@@ -86,6 +86,7 @@ export default {
   flex-direction: column;
   margin: 0 auto;
   text-align: center;
+  top: 0;
   background-image: url(../../assets/background.jpeg);
   background-size: cover;
   height: 520px;
@@ -110,7 +111,7 @@ export default {
 @media (max-width: 600px) {
   .aggettivi {
     font-size: 3rem;
-    margin: 80px 50px 140px 50px;
+    margin: 120px 50px 140px 50px;
   }
   .container {
     display: flex;

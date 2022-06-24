@@ -2,8 +2,12 @@
   <div class="container-footer">
     <v-footer dark padless>
       <v-card class="flex" flat tile>
-        <v-card-title class="teal">
-          <strong class="subheading">Restaurante El Líbano</strong>
+        <v-card-title @click="scrollToTop()" class="teal"
+          ><router-link to="/"
+            ><strong class="subheading"
+              >Restaurante El Líbano</strong
+            ></router-link
+          >
 
           <v-spacer></v-spacer>
           <v-btn class="mx-4" icon>
@@ -44,6 +48,11 @@ export default {
       glovo: "https://glovoapp.com/es/es/tenerife/el-libano-tenerife/",
     };
   },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
 };
 </script>
 <style scoped>
@@ -62,6 +71,7 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
+  color: #3c3c3c;
 }
 .glovo {
   margin: 4px 4px 0 0;

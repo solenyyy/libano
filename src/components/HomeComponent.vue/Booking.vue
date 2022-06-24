@@ -76,7 +76,7 @@ a:active {
   .container-booking {
     flex-direction: column-reverse;
     justify-content: space-evenly;
-    height: 43rem;
+    height: 47rem;
   }
   .info-booking {
     width: 100%;

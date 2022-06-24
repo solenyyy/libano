@@ -1,12 +1,9 @@
 <template>
-  <container class="mx-auto overflow-hidden">
-    <v-app-bar color="white" dark>
-      <router-link to="/">
-        <img class="icon" src="../assets/tree.png" alt="bandera del líbano" />
-      </router-link>
-      <v-toolbar-title></v-toolbar-title>
-    </v-app-bar>
-  </container>
+  <nav class="navbar">
+    <router-link to="/">
+      <img class="icon" src="../assets/tree.png" alt="bandera del líbano" />
+    </router-link>
+  </nav>
 </template>
 <script>
 export default {
@@ -17,11 +14,17 @@ export default {
 <style scoped>
 .icon {
   width: 15px;
-  margin-right: 15px;
+  margin-left: 15px;
 }
-.v-app-bar {
-  box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.091),
-    0px 3px 2px 0px rgba(48, 48, 48, 0.011),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.062) !important;
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 99.9%;
+  height: 50px;
 }
 </style>

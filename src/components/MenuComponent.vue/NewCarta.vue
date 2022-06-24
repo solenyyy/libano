@@ -1,4 +1,5 @@
 <template>
+  <nav-bar></nav-bar>
   <v-expansion-panels class="container-panel">
     <v-expansion-panel class="flex" v-for="item in items" :key="item">
       <v-list-item-title class="title"
@@ -89,6 +90,7 @@
   </div>
 </template>
 <script>
+import NavBar from "../NavBar.vue";
 export default {
   name: "Carta",
   data() {
@@ -99,7 +101,6 @@ export default {
         { name: "Sopa de Cebolla", price: "4,50€" },
         { name: "Consome", price: "4,25€" },
         { name: "Pan", desc: "Unidad", price: "0,95€" },
-
         {
           title: "ENSALADAS",
           name: "Tabule",
@@ -127,7 +128,6 @@ export default {
         { name: "Ensalada de Lechuga", price: "6,75€" },
         { name: "Yogurt con Pepino", price: "4,95€" },
         { name: "Servicio libanés", price: "7,50€" },
-
         {
           title: "CREMAS",
           name: "Mtabal",
@@ -318,6 +318,7 @@ export default {
       item.isActive = !item.isActive;
     },
   },
+  components: { NavBar },
 };
 </script>
 <style scoped>
@@ -330,6 +331,7 @@ export default {
 }
 .title {
   margin-top: 10px;
+  letter-spacing: -2px;
 }
 
 .item1,
@@ -343,7 +345,7 @@ export default {
 }
 
 .info-alergenos {
-  width: 70%;
+  width: 80%;
   margin: 30px auto;
   text-align: center;
 }
@@ -385,7 +387,7 @@ p {
     width: 90%;
   }
   .item1 {
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   .alergens {

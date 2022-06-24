@@ -125,7 +125,7 @@ p {
 @media (max-width: 600px) {
   .section-menu {
     flex-direction: column;
-    margin: 30px 20px;
+    margin: 30px 15px;
     height: 550px;
   }
   .container-carousel,
