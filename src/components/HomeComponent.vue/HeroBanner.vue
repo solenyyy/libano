@@ -13,6 +13,11 @@
         CARTA ONLINE
       </router-link>
     </div>
+    <div class="btn-container-2">
+      <router-link class="menu-btn-2" to="/menu" @click="scrollToTop">
+        RESERVA
+      </router-link>
+    </div>
   </div>
 </template>
 <script>
@@ -51,6 +56,7 @@ export default {
   position: relative;
   top: 0px;
   display: flex;
+  justify-content: center;
   -webkit-animation: fade-in 5.5s 3;
   text-align: center;
   margin: 0 auto;
@@ -60,14 +66,11 @@ export default {
 .text-animated-two {
   display: inline;
   position: relative;
-  margin-left: -56px;
   -webkit-animation: fade-in 5.5s 3;
   -webkit-animation-delay: 750ms;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   text-align: center;
-
-  width: 100%;
   transform: translateY(15px);
 }
 
@@ -92,13 +95,15 @@ export default {
   color: #3c3c3c;
 }
 
-.menu-btn {
+.menu-btn,
+.menu-btn-2 {
   border: 2px solid #3c3c3c;
-  border-radius: 8px;
+
   padding: 5px 10px;
   margin: 0 240px;
 }
-.menu-btn:hover {
+.menu-btn:hover,
+.menu-btn-2:hover {
   border: 2px solid #ee161f;
   font-weight: 600;
 }
@@ -106,19 +111,30 @@ export default {
 @media (max-width: 600px) {
   .aggettivi {
     font-size: 3rem;
-    margin: 90px 60px 140px 60px;
+    margin: 80px 60px 140px 60px;
   }
   .container {
     display: flex;
     align-items: center;
     height: 600px;
   }
+  .text-animated-two {
+    justify-content: center;
+    margin-right: 18px;
+  }
   .menu-btn {
-    padding: 12px 120px;
+    padding: 12px 115px;
     margin: 0 auto 20px auto;
   }
+  .menu-btn-2 {
+    padding: 12px 138px;
+    background-color: #00a850;
+    border: 2px solid #018440;
+    color: white !important;
+  }
 
-  .btn-container {
+  .btn-container-2 {
+    margin-top: 30px;
   }
 }
 

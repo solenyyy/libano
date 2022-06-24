@@ -12,12 +12,17 @@
       ></iframe>
     </div>
     <div class="info-booking">
-      <h2>Contacto y Reservas</h2>
-      <p><strong> Dirección:</strong></p>
+      <h2 class="h2">CONTACTO</h2>
+      <p class="title"><strong> HORARIO</strong></p>
+      <p>
+        Lunes a Domingo <br />
+        13:00 a 16:00 y de 20:00 a 23:00
+      </p>
+      <p class="title"><strong> DIRECCIÓN</strong></p>
       <p>Calle de Santiago Cuadrado, 36. 38006.</p>
       <p>Santa Cruz de Tenerife.</p>
-      <p><strong> Teléfonos:</strong></p>
-      <p>
+      <p class="title"><strong> TELÉFONOS</strong></p>
+      <p class="bottom">
         <a href="tel:+34922285914">922 28 59 14</a> <br />
         <a href="tel:+34922282542">922 28 25 42</a>
       </p>
@@ -27,6 +32,7 @@
 <script></script>
 <style scoped>
 .container-booking {
+  font-size: 17px;
   height: 450px;
   display: flex;
   flex-direction: row;
@@ -38,13 +44,22 @@
 .info-booking {
   width: 41%;
 }
-h2 {
+.h2 {
   font-size: 40px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+}
+.title {
+  padding: 5px;
+  font-weight: 900;
+  letter-spacing: -1.5px;
 }
 p {
   text-align: center;
+}
+
+.bottom {
+  margin-bottom: 20px;
 }
 a {
   margin: 0 auto;

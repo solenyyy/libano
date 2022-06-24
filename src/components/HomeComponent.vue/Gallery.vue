@@ -90,6 +90,7 @@ a:active {
   align-items: center;
   margin: 0 60px;
   height: 450px;
+  font-size: 17px;
 }
 .container-carousel {
   width: 50%;
@@ -112,7 +113,7 @@ p {
 }
 .menu-btn {
   border: 2px solid #3c3c3c;
-  border-radius: 8px;
+
   padding: 5px 10px;
 }
 .menu-btn:hover {
@@ -131,7 +132,7 @@ p {
     margin-bottom: 20px;
   }
   .menu-btn {
-    padding: 6px 115px;
+    padding: 12px 115px;
   }
 }
 </style>

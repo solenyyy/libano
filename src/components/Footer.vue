@@ -30,7 +30,7 @@
             >C/ Santiago Cuadrado, 36. Santa Cruz de Tenerife. Tlf: 922 28 59 14
             ©</strong
           >
-          - {{ new Date().getFullYear() }}.
+          - {{ new Date().getFullYear() }}. <br />Diseño: Soleny.
         </v-card-text>
       </v-card>
     </v-footer>
