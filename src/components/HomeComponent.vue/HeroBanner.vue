@@ -114,7 +114,7 @@ export default {
   .container {
     display: flex;
     align-items: center;
-    height: 670px;
+    height: 700px;
   }
   .text-animated-two {
     justify-content: center;
