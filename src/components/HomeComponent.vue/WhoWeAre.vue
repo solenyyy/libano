@@ -2,7 +2,7 @@
   <div class="container-grey">
     <div>
       <div class="h1">
-        40 años de <strong>auténtica</strong> comida libanesa
+        42 años de <strong>auténtica</strong> comida libanesa
       </div>
     </div>
 
@@ -105,7 +105,7 @@ p {
     color: #b9935a;
   }
   .container-grey {
-    padding: 70px 2px 10px 2px;
+    padding: 50px 2px 10px 2px;
   }
   .timeline {
     justify-content: space-around;

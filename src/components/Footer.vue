@@ -12,7 +12,7 @@
           <v-spacer></v-spacer>
           <v-btn class="mx-4" icon>
             <a href="mailto:restauranteellibano@gmail.com">
-              <v-icon large color="#00a850">mdi-email</v-icon></a
+              <v-icon large color="#b9935a">mdi-email</v-icon></a
             ></v-btn
           >
           <v-btn class="mx-4" icon>
@@ -24,7 +24,7 @@
           ></v-btn>
           <v-btn class="mx-4" icon>
             <a :href="path" target="_blank">
-              <v-icon large color="#00a850">mdi-facebook </v-icon></a
+              <v-icon large color="#b9935a">mdi-facebook </v-icon></a
             ></v-btn
           >
         </v-card-title>
@@ -38,7 +38,7 @@
           <p class="designed">
             Diseño y Desarrollo:
             <a target="_blank" href="https://www.linkedin.com/in/soleny-yumare/"
-              >Soleny.</a
+              >Soleny Yumare.</a
             >
           </p>
         </v-card-text>

@@ -79,6 +79,7 @@ export default {
 }
 
 .container {
+  font-size: 18px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -122,7 +123,7 @@ export default {
     transform: translateY(9px);
   }
   .menu-btn {
-    padding: 12px 110px;
+    padding: 12px 106px;
     margin: 0 auto 20px auto;
     border: 2px solid #b9935a;
   }
