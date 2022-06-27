@@ -127,6 +127,8 @@ export default {
     padding: 12px 106px;
     margin: 0 auto 20px auto;
     border: 2px solid #b9935a;
+    background-color: white;
+    color: #b9935a !important;
   }
   .menu-btn-2 {
     display: inline-block;
