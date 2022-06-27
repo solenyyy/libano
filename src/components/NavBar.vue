@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="below-nav">
       <router-link to="/">
-        <img class="icon" src="../assets/liban.png" alt="bandera del líbano" />
+        <img class="icon" src="../assets/tree.png" alt="bandera del líbano" />
       </router-link>
     </div>
   </nav>
@@ -21,7 +21,7 @@ export default {
 .navbar {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
   background-color: transparent;
   top: 0;
   left: 0;

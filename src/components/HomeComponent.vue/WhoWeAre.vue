@@ -71,6 +71,7 @@ export default {};
   font-style: italic;
   margin-left: 15px;
   letter-spacing: -1px;
+  color: #3f331e;
 }
 .timeline {
   font-family: "Roboto Condensed", sans-serif;
@@ -78,6 +79,7 @@ export default {};
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 30px;
+  color: #3f331e;
 }
 .icon {
   width: 75px;

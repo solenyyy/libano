@@ -73,6 +73,7 @@ export default {
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  color: #3f331e;
 }
 a:link,
 a:visited,
