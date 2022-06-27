@@ -120,12 +120,13 @@ p {
   margin-top: 30px;
 }
 .menu-btn {
-  border: 2px solid #3c3c3c;
-
-  padding: 5px 10px;
+  padding: 9px 100px;
+  background-color: #b9935a;
+  border: 2px solid #b9935a;
+  color: white !important;
 }
 .menu-btn:hover {
-  border: 3px solid #3c3c3c;
+  border: 3px solid #b9935a;
   font-weight: 600;
 }
 @media (max-width: 600px) {
@@ -155,7 +156,7 @@ p {
     margin-bottom: 20px;
   }
   .menu-btn {
-    padding: 12px 119px;
+    padding: 12px 100px;
     border: 2px solid #b9935a;
     background-color: #b9935a;
     color: white !important;

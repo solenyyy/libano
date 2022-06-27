@@ -85,6 +85,7 @@ export default {};
 h2 {
   font-weight: 600;
   margin-bottom: 10px;
+  color: #b9935a;
 }
 p {
   text-align: justify;
@@ -101,9 +102,6 @@ p {
 }
 
 @media (max-width: 600px) {
-  h2 {
-    color: #b9935a;
-  }
   .container-grey {
     padding: 50px 2px 10px 2px;
   }

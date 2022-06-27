@@ -54,6 +54,7 @@
 .title {
   padding: 5px;
   font-weight: 900;
+  color: #b9935a;
   letter-spacing: -1.5px;
 }
 p {
@@ -81,9 +82,6 @@ a:active {
   }
   .info-booking {
     width: 100%;
-  }
-  .title {
-    color: #b9935a;
   }
 }
 </style>
