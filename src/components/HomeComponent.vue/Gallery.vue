@@ -104,8 +104,7 @@ a:active {
   text-align: center;
 }
 h2 {
-  font-family: "Copperplate";
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;

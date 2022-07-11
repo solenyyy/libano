@@ -66,8 +66,7 @@
   width: 41%;
 }
 .h2 {
-  font-family: "Copperplate";
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   padding-top: 30px;
   letter-spacing: -4px;

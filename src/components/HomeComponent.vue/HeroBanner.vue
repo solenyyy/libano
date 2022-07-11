@@ -59,9 +59,8 @@ export default {
   justify-content: center;
   -webkit-animation: fade-in 5.5s 3;
   text-align: center;
-
   letter-spacing: -6px;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
 }
 
 .text-animated-two {
@@ -73,7 +72,6 @@ export default {
   justify-content: flex-start;
   text-align: center;
   transform: translateY(12px);
-  font-size: 4rem;
 }
 
 .aggettivi {
@@ -137,6 +135,7 @@ export default {
     border: 2px solid #b9935a;
     background-color: white;
     color: #b9935a !important;
+    padding: 9px 132px;
   }
   .menu-btn-2 {
     display: inline-block;
