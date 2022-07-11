@@ -73,14 +73,14 @@
   color: #3f331e;
 }
 .title {
-  font-size: 18px;
+  font-size: 19px;
   padding: 5px;
   font-weight: 900;
   color: #b9935a;
   letter-spacing: -1.5px;
 }
 p {
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }

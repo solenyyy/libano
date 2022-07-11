@@ -105,7 +105,7 @@ p {
 
 @media (max-width: 600px) {
   .container-grey {
-    padding: 50px 2px 10px 2px;
+    padding: 50px 3px 10px 2px;
   }
   .timeline {
     justify-content: space-around;
