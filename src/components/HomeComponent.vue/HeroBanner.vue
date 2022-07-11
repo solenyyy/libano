@@ -140,7 +140,7 @@ export default {
   .menu-btn-2 {
     display: inline-block;
     margin-top: 20px;
-    padding: 9px 132px;
+    padding: 9px 140px;
     background-color: #b9935a;
     border: 2px solid #b9935a;
     color: white !important;
