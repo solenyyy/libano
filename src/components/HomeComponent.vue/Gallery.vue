@@ -81,7 +81,7 @@ a:active {
   gap: 3px;
 }
 .size-img {
-  width: 185px;
+  width: 180px;
 }
 .background {
   display: flex;
@@ -147,7 +147,7 @@ p {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.7px);
     -webkit-backdrop-filter: blur(3.1px);
-    padding: 15px;
+    padding: 10px;
   }
   .container-carousel,
   .container-info {
@@ -155,7 +155,7 @@ p {
     margin-bottom: 20px;
   }
   .menu-btn {
-    padding: 12px 123px;
+    padding: 12px 119px;
     border: 2px solid #b9935a;
     background-color: #b9935a;
     color: white !important;

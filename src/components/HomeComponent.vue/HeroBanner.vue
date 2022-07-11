@@ -146,7 +146,8 @@ export default {
     color: white !important;
   }
   .btn-container {
-    margin-top: 40px;
+    margin-top: 30px;
+    font-size: 19px;
   }
 }
 
