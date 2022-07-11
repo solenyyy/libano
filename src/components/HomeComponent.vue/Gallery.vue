@@ -155,7 +155,7 @@ p {
     margin-bottom: 20px;
   }
   .menu-btn {
-    padding: 12px 100px;
+    padding: 12px 123px;
     border: 2px solid #b9935a;
     background-color: #b9935a;
     color: white !important;

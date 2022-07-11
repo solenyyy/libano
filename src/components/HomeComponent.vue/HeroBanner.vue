@@ -135,12 +135,11 @@ export default {
     border: 2px solid #b9935a;
     background-color: white;
     color: #b9935a !important;
-    padding: 9px 132px;
+    padding: 12px 122px;
   }
   .menu-btn-2 {
     display: inline-block;
     margin-top: 20px;
-
     padding: 9px 132px;
     background-color: #b9935a;
     border: 2px solid #b9935a;
