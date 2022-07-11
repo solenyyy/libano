@@ -90,7 +90,7 @@ h2 {
   color: #b9935a;
   font-family: "Copperplate";
   letter-spacing: -3px;
-  font-size: 20px;
+  font-size: 23px;
   text-transform: uppercase;
 }
 p {
