@@ -89,6 +89,9 @@ h2 {
   margin-bottom: 10px;
   color: #b9935a;
   font-family: "Copperplate";
+  letter-spacing: -3px;
+  font-size: 18.5px;
+  text-transform: uppercase;
 }
 p {
   text-align: justify;
