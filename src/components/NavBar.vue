@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="below-nav">
       <router-link to="/">
-        <img class="icon" src="../assets/tree.png" alt="bandera del líbano" />
+        <img class="icon" src="../assets/bars-solid.svg" alt="bars" />
       </router-link>
     </div>
   </nav>
