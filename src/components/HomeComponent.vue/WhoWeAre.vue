@@ -88,6 +88,7 @@ h2 {
   font-weight: 600;
   margin-bottom: 10px;
   color: #b9935a;
+  font-family: "Copperplate";
 }
 p {
   text-align: justify;
