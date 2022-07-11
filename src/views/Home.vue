@@ -2,6 +2,7 @@
   <HeroBanner />
   <WhoWeAre />
   <Gallery />
+  <Pics />
   <Booking id="anchor" />
 </template>
 
@@ -10,6 +11,7 @@ import HeroBanner from "../components/HomeComponent.vue/HeroBanner.vue";
 import WhoWeAre from "../components/HomeComponent.vue/WhoWeAre.vue";
 import Booking from "../components/HomeComponent.vue/Booking.vue";
 import Gallery from "../components/HomeComponent.vue/Gallery.vue";
+import Pics from "../components/HomeComponent.vue/Pics.vue";
 
 export default {
   name: "Home",
@@ -19,6 +21,7 @@ export default {
     WhoWeAre,
     Booking,
     Gallery,
+    Pics,
   },
 
   data: () => ({
