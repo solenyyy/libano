@@ -6,41 +6,42 @@
     libanesa.
   </p>
   <div class="img">
-    <img class="hummus" src="../../assets/hummus.png" alt="" />
+    <img class="hummus" src="../../assets/new-pics/hummusbien.png" alt="" />
     <p class="position">
-      El Líbano es uno de los clásicos de la comida árabe en Santa Cruz de
-      Tenerife.
+      El Líbano es uno de los <strong>clásicos de la comida árabe</strong> en
+      Santa Cruz de Tenerife.
     </p>
   </div>
   <div class="img-2">
-    <img class="tabule" src="../../assets/taboule.png" alt="" />
+    <img class="tabule" src="../../assets/new-pics/tabulebien.png" alt="" />
   </div>
   <p class="position-kipe">
-    La más exquisita, sana y exclusiva cocina mediterránea.
+    La más <u>exquisita, sana y exclusiva</u> cocina mediterránea.
   </p>
   <div class="img">
-    <img class="falafel" src="../../assets/falafel.png" alt="" />
+    <img class="falafel" src="../../assets/new-pics/falafelbien.png" alt="" />
   </div>
   <div class="img-2">
     <p class="position-tabule">
-      El Líbano tiene 22 mesas, capaces de reunir a casi un centenar de
+      <em>Disponemos de 22 mesas</em>, capaces de reunir a casi un centenar de
       comensales.
     </p>
-    <img class="kipenaye" src="../../assets/kipenaye.png" alt="" />
-    <p class="position-kipe">
-      Avalados por los más de 42 años que llevamos abiertos.
+    <img class="kipenaye" src="../../assets/new-pics/guarakbien.png" alt="" />
+    <p class="final-text">
+      <strong>Esto y mucho más</strong> es lo que pueden hallar quienes acudan a
+      nuestro restaurante, en la <em>capital tinerfeña.</em>
     </p>
   </div>
-  <div class="last-margin-jaruf">
-    <img class="jaruf" src="../../assets/jaruf.png" alt="" />
-  </div>
-  <!--   <p class="text-2">
-    Esto y mucho más es lo que pueden hallar quienes acudan a nuestro
-    restaurante, en la capital tinerfeña.
-  </p> -->
+  <hr />
 </template>
 <script></script>
 <style scoped>
+hr {
+  background-color: #b9935a;
+  width: 80%;
+  height: 3px;
+  margin: 0 auto;
+}
 .title {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -68,21 +69,29 @@
   font-size: 19.5px;
   color: #3f331e;
   text-align: right;
-  padding: 20px;
+  padding: 10px 20px;
 }
 .position-kipe {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
-  text-align: right;
-  padding: 0 20px 5px 120px;
+  text-align: left;
+  padding: 10px 120px 10px 20px;
 }
 .position-tabule {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
-  text-align: left;
-  padding: 0.5px 90px 10px 20px;
+  text-align: right;
+  padding: 10px 20px 0px 50px;
+}
+.final-text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 21px;
+  color: #3f331e;
+  text-align: center;
+  padding: 50px 20px 20px 20px;
+  margin-bottom: 50px;
 }
 .hummus {
   width: 450px;
@@ -91,26 +100,22 @@
   filter: drop-shadow(0 0 0.25rem grey);
 }
 .tabule {
-  width: 1550px;
+  margin-top: -20px;
+  width: 450px;
+  right: 0.5%;
   position: relative;
-  right: 159%;
   filter: drop-shadow(0 0 0.25rem grey);
 }
 .kipenaye {
   width: 450px;
   position: relative;
-  margin-top: 400px;
-  right: 1%;
   filter: drop-shadow(0 0 0.25rem grey);
 }
-.img-2 {
-  margin-top: -660px;
-}
 .falafel {
-  width: 850px;
+  width: 450px;
   position: relative;
-  right: 29%;
-  margin-top: -730px;
+  right: 7%;
+  margin-top: -50px;
   filter: drop-shadow(0 0 0.25rem grey);
 }
 .jaruf {

@@ -58,8 +58,9 @@ export default {
   justify-content: center;
   -webkit-animation: fade-in 5.5s 3;
   text-align: center;
-  letter-spacing: -6px;
+  letter-spacing: -5px;
   font-size: 3.4rem;
+  font-weight: 900;
 }
 
 .text-animated-two {
