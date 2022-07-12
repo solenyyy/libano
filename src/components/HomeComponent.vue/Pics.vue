@@ -32,7 +32,7 @@
       nuestro restaurante, en la <em>capital tinerfeña.</em>
     </p>
   </div>
-  <div class="test">
+  <div class="test" :scroll="handleScroll()">
     <svg
       class="margin"
       xmlns="http://www.w3.org/2000/svg"
@@ -63,9 +63,37 @@
   </div>
   <hr />
 </template>
-<script></script>
+<script>
+export default {
+  name: "Pics",
+  data() {
+    return {};
+  },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  unmounted() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      let reveals = document.querySelectorAll(".path");
+      for (let i = 0; i < reveals.length; i++) {
+        let windowHeight = window.innerHeight;
+        let elementTop = reveals[i].getBoundingClientRect().top;
+        let elementVisible = 150;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    },
+  },
+};
+</script>
 <style scoped>
-.path {
+.path.active {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
   animation: dash 10s ease alternate forwards;
