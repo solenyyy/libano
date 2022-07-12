@@ -46,7 +46,6 @@ export default {
 .text {
   overflow: hidden;
   margin: 15px 0;
-  font-family: "Copperplate";
   text-transform: uppercase;
 }
 
@@ -95,9 +94,6 @@ export default {
   color: #3f331e;
 }
 
-.btn-container {
-  font-family: "Copperplate";
-}
 .menu-btn {
   margin: 20px 70px;
   padding: 9px 100px;
@@ -135,7 +131,7 @@ export default {
     border: 2px solid #b9935a;
     background-color: white;
     color: #b9935a !important;
-    padding: 12px 122px;
+    padding: 12px 118px;
   }
   .menu-btn-2 {
     display: inline-block;
