@@ -57,7 +57,7 @@ export default {
 
 .text-animated-one {
   display: inline;
-  /*   position: relative; */
+
   right: 5px;
   -webkit-animation: fade-in 5.5s 2;
   text-align: center;
@@ -68,9 +68,9 @@ export default {
 
 .text-animated-two {
   display: inline;
-  /*   position: relative; */
+
   -webkit-animation: fade-in 5.5s 2;
-  -webkit-animation-delay: 750ms;
+  -webkit-animation-delay: 100ms;
   text-align: center;
   font-size: 3.4rem;
   transform: translateY(1px);

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" id="anchor2">
     <h1 class="title">NUESTRA CARTA</h1>
     <p class="text">
       <em>Una carta tradicional</em> aunque sujeta a la

@@ -1,5 +1,4 @@
 <template>
-  <div class="breadcrumb"><p>Volver</p></div>
   <v-expansion-panels class="container-panel">
     <v-expansion-panel class="flex" v-for="item in items" :key="item">
       <v-list-item-title class="title"
@@ -320,10 +319,6 @@ export default {
 };
 </script>
 <style scoped>
-.breadcrumb {
-  height: 55px;
-  color: transparent;
-}
 .flex {
   text-align: center;
 }

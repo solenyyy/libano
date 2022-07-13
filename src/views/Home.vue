@@ -1,8 +1,8 @@
 <template>
   <HeroBanner />
-  <WhoWeAre />
+  <WhoWeAre id="whoweare" />
   <!--   <Gallery /> -->
-  <Pics />
+  <Pics id="anchor2" />
   <Booking id="anchor" />
 </template>
 

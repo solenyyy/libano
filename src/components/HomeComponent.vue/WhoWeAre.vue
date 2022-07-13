@@ -1,5 +1,5 @@
 <template>
-  <div class="container-grey">
+  <div class="container-grey" id="whoweare">
     <div>
       <div class="h1">
         42 años de <strong>auténtica</strong> comida libanesa
