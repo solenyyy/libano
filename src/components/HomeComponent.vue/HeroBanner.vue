@@ -126,7 +126,7 @@ export default {
   }
   .aggettivi {
     font-size: 3rem;
-    margin: 140px 72px;
+    margin: 100px 72px;
   }
   .container {
     display: flex;
