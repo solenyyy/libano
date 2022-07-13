@@ -33,6 +33,11 @@
         a nuestro restaurante, en la <em>capital tinerfeña.</em>
       </p>
     </div>
+    <div class="container-btn">
+      <router-link class="menu-btn-2" to="/menu" @click="scrollToTop">
+        CARTA ONLINE
+      </router-link>
+    </div>
     <hr />
   </div>
   <!--   <div class="test" :scroll="handleScroll()">
@@ -78,6 +83,9 @@ export default {
     window.removeEventListener("scroll", this.handleScroll);
   },
   methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
     handleScroll() {
       let reveals = document.querySelectorAll(".path");
       for (let i = 0; i < reveals.length; i++) {
@@ -110,7 +118,24 @@ export default {
   animation-delay: 1s;
   animation-iteration-count: 1;
 }
+.container-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 19.5px;
+  font-weight: 600;
+}
+.menu-btn-2 {
+  padding: 9px 120px;
+  border: 2px solid #b9935a;
+}
 
+.menu-btn-2:hover {
+  background-color: #b9935a;
+  border: 2px solid #b9935a;
+  color: white;
+}
 .test {
   display: flex;
   justify-content: center;
@@ -128,8 +153,9 @@ export default {
 }
 hr {
   background-color: #3f331e;
-  width: 80%;
-  height: 3px;
+  border: 1px solid #3f331e;
+  width: 70%;
+  height: 1px;
   margin: 0 auto;
 }
 .title {
