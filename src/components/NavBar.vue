@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="nav-links">
+    <div class="nav-links" v-on:click="openMobileNav()">
       <a href="#" v-scroll-to="'#whoweare'">SOBRE NOSOTROS</a>
       <a href="#" v-scroll-to="'#anchor2'">NUESTRA CARTA</a>
       <a href="#" v-scroll-to="'#anchor'">RESERVAS</a>

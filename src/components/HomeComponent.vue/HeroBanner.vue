@@ -57,21 +57,19 @@ export default {
 
 .text-animated-one {
   display: inline;
-
   -webkit-animation: fade-in 5.5s 2;
   text-align: center;
   letter-spacing: -2px;
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
 .text-animated-two {
   display: inline;
-
   -webkit-animation: fade-in 5.5s 2;
   -webkit-animation-delay: 100ms;
   text-align: center;
-  font-size: 3.4rem;
+  font-size: 3.3rem;
   transform: translateY(1px);
 }
 
@@ -93,7 +91,7 @@ export default {
   color: #3f331e;
 }
 .btn-container {
-  margin-top: 50px;
+  margin-top: 40px;
   font-weight: 600;
 }
 .menu-btn {
