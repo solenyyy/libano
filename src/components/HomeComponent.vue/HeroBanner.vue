@@ -31,11 +31,9 @@ export default {
   min-height: 500px;
   background-image: url(../../assets/background.jpeg);
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
-
 @-webkit-keyframes fade-in {
   0%,
   20% {
@@ -123,6 +121,9 @@ export default {
 }
 
 @media (max-width: 600px) {
+  .parallax {
+    background-size: 300%;
+  }
   .aggettivi {
     font-size: 3rem;
     margin: 140px 72px;
