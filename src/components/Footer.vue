@@ -2,40 +2,28 @@
   <div class="container-footer">
     <v-footer dark padless>
       <v-card class="flex" flat tile>
+        <v-btn class="mx-2" icon>
+          <a :href="glovo" target="_blank">
+            <img
+              class="glovo"
+              src="../assets/logo_yellow_small.svg"
+              alt="" /></a
+        ></v-btn>
+        <v-btn class="mx-2" icon>
+          <a :href="path" target="_blank">
+            <v-icon large color="#1877f2">mdi-facebook </v-icon></a
+          ></v-btn
+        >
         <v-card-title @click="scrollToTop()" class="teal"
           ><router-link to="/"
             ><strong class="subheading"
-              >Restaurante El Líbano</strong
+              >© {{ new Date().getFullYear() }} | Restaurante El Líbano.</strong
             ></router-link
           >
 
           <v-spacer></v-spacer>
-          <v-btn class="mx-4" icon>
-            <a href="mailto:restauranteellibano@gmail.com">
-              <v-icon large color="#b9935a">mdi-email</v-icon></a
-            ></v-btn
-          >
-          <v-btn class="mx-4" icon>
-            <a :href="glovo" target="_blank">
-              <img
-                class="glovo"
-                src="../assets/logo_yellow_small.svg"
-                alt="" /></a
-          ></v-btn>
-          <v-btn class="mx-4" icon>
-            <a :href="path" target="_blank">
-              <v-icon large color="#b9935a">mdi-facebook </v-icon></a
-            ></v-btn
-          >
         </v-card-title>
-
         <v-card-text class="py-2 white--text develop">
-          <strong
-            >C/ Santiago Cuadrado, 36. Santa Cruz de Tenerife. <br />
-            Tlf: 922 28 59 14
-          </strong>
-
-          © {{ new Date().getFullYear() }}. <br />
           <p class="designed">
             Desarrollo:
             <a target="_blank" href="https://www.linkedin.com/in/soleny-yumare/"
@@ -67,12 +55,8 @@ export default {
 }
 .v-footer {
   font-family: "Roboto Condensed", sans-serif;
-  border-top: 0px solid rgba(128, 128, 128, 0.29);
-  -webkit-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 1px 3px rgba(50, 50, 50, 0.75);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   color: #3f331e;
@@ -85,9 +69,10 @@ a:active {
 }
 .glovo {
   margin: 4px 3px 0 0;
-  width: 25px;
+  width: 22px;
 }
 .designed {
   font-size: 10px;
+  margin-left: 140px;
 }
 </style>

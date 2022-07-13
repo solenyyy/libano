@@ -12,6 +12,9 @@ const routes = [
     path: "/menu/",
     name: "menu",
     component: Menu,
+     meta: {
+  hideNavbar: true,
+ }
   },
 /*   {
     path: "/home",

@@ -86,12 +86,11 @@ export default {
 <style>
 nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
-  background-color: white;
-  min-height: 8vh;
+  height: 7vh;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 25px;
+  margin-right: 20px;
 }
 .nav-links {
   display: flex;
@@ -127,6 +126,11 @@ a:active {
 }
 /* Mobile */
 @media screen and (max-width: 768px) {
+  nav {
+    font-size: 25px;
+    justify-content: flex-start;
+    min-height: 8vh;
+  }
   .nav-links {
     position: absolute;
     flex-direction: column;

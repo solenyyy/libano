@@ -91,7 +91,7 @@ p {
 }
 
 .maps-test {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 a {
   margin: 0 auto;

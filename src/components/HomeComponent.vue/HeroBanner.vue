@@ -58,10 +58,9 @@ export default {
 .text-animated-one {
   display: inline;
 
-  right: 5px;
   -webkit-animation: fade-in 5.5s 2;
   text-align: center;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   font-size: 3.4rem;
   font-weight: 900;
 }

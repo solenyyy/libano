@@ -24,9 +24,7 @@ export default {
     Pics,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>
 <style></style>

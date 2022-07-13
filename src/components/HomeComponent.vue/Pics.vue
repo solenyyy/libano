@@ -181,7 +181,7 @@ hr {
   color: #3f331e;
   text-align: center;
   padding: 50px 20px 20px 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .hummus {
   width: 450px;

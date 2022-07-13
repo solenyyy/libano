@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <NavBar />
+      <NavBar v-if="!$route.meta.hideNavbar" />
       <router-view />
       <Footer />
     </v-main>
