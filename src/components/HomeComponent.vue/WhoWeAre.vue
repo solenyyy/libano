@@ -10,7 +10,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/restaurant.png" alt="" />
 
-      <div class="wrapper" data-aos="fade-up" data-aos-duration="1700">
+      <div class="wrapper" data-aos="fade-left" data-aos-duration="1700">
         <h2>¿Quiénes somos?</h2>
         <p class="texto">
           Con 17 años, <strong> Alí Mohsen</strong>, propietario de El Líbano,
@@ -23,7 +23,7 @@
     </div>
 
     <div class="timeline">
-      <div class="spacer" data-aos="fade-up" data-aos-duration="1500">
+      <div class="spacer" data-aos="fade-right" data-aos-duration="1700">
         <h2>¿Cómo lo hacemos?</h2>
         <p class="middle">
           La clave del éxito del restaurante es
@@ -40,7 +40,7 @@
       <div class="spacer query"></div>
       <img class="icon" src="../../assets/fast-delivery.png" alt="" />
 
-      <div class="wrapper" data-aos="fade-up" data-aos-duration="1500">
+      <div class="wrapper" data-aos="fade-left" data-aos-duration="1700">
         <h2>Comida a domicilio</h2>
         <p class="texto">
           <u>Abierto todos los días,</u> domingos y festivos incluidos, se puede
@@ -58,6 +58,11 @@ export default {};
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 .container-grey {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 18px;
   color: #3c3c3c;
   width: 100%;
@@ -78,8 +83,9 @@ export default {};
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   color: #3f331e;
+  text-align: center;
 }
 .icon {
   width: 75px;
@@ -111,7 +117,6 @@ p {
   }
   .timeline {
     justify-content: space-around;
-    text-align: center;
     margin-bottom: 60px;
   }
   .query {

@@ -24,11 +24,7 @@ export default {
 #app {
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
-}
-
-@font-face {
-  font-family: "Copperplate";
-  src: local("Copperplate"),
-    url(./fonts/Copperplate/OPTICopperplate-Heavy.otf) format("truetype");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 </style>
