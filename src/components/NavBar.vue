@@ -1,34 +1,89 @@
 <template>
-  <nav class="navbar">
-    <div class="below-nav">
-      <router-link to="/">
-        <img class="icon" src="../assets/bars-solid.svg" alt="bars" />
-      </router-link>
+  <div class="container">
+    <div class="nav-menu">
+      <img
+        class="icon"
+        src="../assets/bars-solid.svg"
+        alt="bars"
+        @click="showMenu()"
+      />
+
+      <div
+        class="nav-content"
+        :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'"
+      >
+        <ul class="nav-items">
+          <li>Sobre Nosotros</li>
+          <li>Nuestra Carta</li>
+          <li>Reservas</li>
+        </ul>
+      </div>
     </div>
-  </nav>
+  </div>
 </template>
 <script>
 export default {
-  data: () => ({}),
+  data() {
+    return {
+      showMobileMenu: false,
+    };
+  },
+  methods: {
+    showMenu() {
+      this.showMobileMenu = !this.showMobileMenu;
+    },
+  },
 };
 </script>
-
-<style scoped>
+<style lang="scss" scoped>
+.container {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 35px;
+}
 .icon {
   width: 20px;
   margin-left: 15px;
 }
-.navbar {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  background-color: transparent;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 55px;
+.nav-content {
+  padding: 5px 30px;
 }
-.below-nav {
-  padding: 3em 0 3em;
+.nav-items {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    padding: 0 10px;
+  }
+}
+
+.nav-menu {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 2px 10px rgb(171, 171, 171);
+}
+.open-menu {
+  opacity: 1;
+  height: 190px;
+}
+.closed-menu {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+}
+.nav-content {
+  flex-direction: column;
+  z-index: 100;
+  position: relative;
+  transition: all 0.2s ease-out;
+}
+.nav-items {
+  flex-direction: column;
+}
+
+@media (min-width: 769px) {
 }
 </style>

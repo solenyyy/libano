@@ -14,9 +14,11 @@
     "core-js": "^3.6.5",
     "roboto-fontface": "*",
     "vue": "^3.0.0",
+    "vue-parallax-js": "^0.2.3",
     "vue-parallaxy": "^1.1.1",
     "vue-router": "^4.0.16",
     "vue-scrollto": "^2.20.0",
+    "vue3-parallax": "^0.1.4",
     "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"
   },

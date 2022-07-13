@@ -28,11 +28,11 @@ export default {
 </script>
 <style scoped>
 .parallax {
-  min-height: 500px;
   background-image: url(../../assets/background.jpeg);
+  background-size: 100%;
+  min-height: 500px;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 @-webkit-keyframes fade-in {
   0%,
@@ -57,7 +57,7 @@ export default {
 
 .text-animated-one {
   display: inline;
-  position: relative;
+  /*   position: relative; */
   right: 5px;
   -webkit-animation: fade-in 5.5s 2;
   text-align: center;
@@ -68,7 +68,7 @@ export default {
 
 .text-animated-two {
   display: inline;
-  position: relative;
+  /*   position: relative; */
   -webkit-animation: fade-in 5.5s 2;
   -webkit-animation-delay: 750ms;
   text-align: center;
