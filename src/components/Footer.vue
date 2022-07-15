@@ -51,10 +51,7 @@ export default {
 };
 </script>
 <style scoped>
-.container-footer {
-}
 .v-footer {
-  font-family: "Roboto Condensed", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;

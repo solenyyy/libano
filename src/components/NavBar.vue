@@ -89,7 +89,6 @@ nav {
   justify-content: flex-end;
   align-items: center;
   height: 7vh;
-  font-family: "Roboto Condensed", sans-serif;
   margin-right: 20px;
 }
 .nav-links {
@@ -118,7 +117,7 @@ a:active {
   text-decoration: none;
 }
 
-/* Tablet */
+/* media queries */
 @media screen and (max-width: 1024px) {
   .nav-links {
     width: 50%;

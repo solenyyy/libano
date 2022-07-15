@@ -117,6 +117,8 @@ export default {
   color: white;
 }
 
+/* media queries */
+
 @media (max-width: 600px) {
   .parallax {
     background-size: 300%;
@@ -140,7 +142,7 @@ export default {
     border: 2px solid #b9935a;
     background-color: white;
     color: #b9935a !important;
-    padding: 12px 118px;
+    padding: 12px 122.5px;
   }
   .menu-btn-2 {
     display: inline-block;

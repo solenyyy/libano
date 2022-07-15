@@ -56,7 +56,6 @@
 export default {};
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 .container-grey {
   min-height: 500px;
   background-attachment: fixed;
@@ -79,7 +78,6 @@ export default {};
   color: #3f331e;
 }
 .timeline {
-  font-family: "Roboto Condensed", sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
