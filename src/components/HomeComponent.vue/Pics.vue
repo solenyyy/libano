@@ -34,7 +34,7 @@
       </p>
     </div>
     <div class="container-btn">
-      <router-link class="menu-btn-2" to="/menu" @click="scrollToTop">
+      <router-link class="menu-btn" to="/menu" @click="scrollToTop">
         CARTA ONLINE
       </router-link>
     </div>
@@ -121,20 +121,22 @@ export default {
 .container-btn {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 19.5px;
+  margin-bottom: 60px;
+  font-family: "Unica One", cursive;
+  font-size: 19px;
   font-weight: 600;
 }
-.menu-btn-2 {
+.menu-btn {
+  margin: 0px 5px;
   padding: 9px 120px;
+  background-color: transparent;
   border: 2px solid #b9935a;
+  color: black !important;
 }
-
-.menu-btn-2:hover {
+.menu-btn:hover {
   background-color: #b9935a;
   border: 2px solid #b9935a;
-  color: white;
+  color: white !important;
 }
 .test {
   display: flex;
@@ -165,6 +167,7 @@ hr {
   font-size: 40px;
   letter-spacing: -4px;
   color: #3f331e;
+  font-family: "Unica One", cursive;
 }
 .text {
   padding: 20px;
@@ -181,28 +184,24 @@ hr {
   padding: 0 20px 50px 20px;
 }
 .position {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
   text-align: right;
   padding: 10px 20px;
 }
 .position-kipe {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
   text-align: left;
   padding: 10px 120px 10px 20px;
 }
 .position-tabule {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
   text-align: right;
   padding: 10px 20px 0px 50px;
 }
 .final-text {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 21px;
   color: #3f331e;
   text-align: center;
@@ -285,11 +284,12 @@ hr {
     font-size: 20px;
   }
   .hummus {
-    left: 72%;
+    left: 73%;
+
     margin-top: -50px;
   }
   .falafel {
-    left: 61%;
+    left: 63%;
     margin-top: -100px;
   }
   .tabule {

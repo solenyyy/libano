@@ -27,6 +27,7 @@ export default {
 };
 </script>
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 .parallax {
   background-image: url(../../assets/background.jpeg);
   background-size: 100%;
@@ -52,14 +53,15 @@ export default {
 .text {
   overflow: hidden;
   margin: 15px 0;
-  text-transform: uppercase;
+
+  font-family: "Unica One", cursive;
 }
 
 .text-animated-one {
   display: inline;
   -webkit-animation: fade-in 5.5s 2;
   text-align: center;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -93,6 +95,7 @@ export default {
 .btn-container {
   margin-top: 40px;
   font-weight: 600;
+  font-family: "Unica One", cursive;
 }
 .menu-btn {
   margin: 0px 5px;
@@ -140,7 +143,7 @@ export default {
   .menu-btn {
     margin: 0 auto 20px auto;
     border: 2px solid #b9935a;
-    background-color: white;
+    background-color: transparent;
     color: #b9935a !important;
     padding: 12px 122.5px;
   }

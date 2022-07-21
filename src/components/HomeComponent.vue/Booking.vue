@@ -76,13 +76,15 @@
   padding-top: 40px;
   letter-spacing: -4px;
   color: #3f331e;
+  font-family: "Unica One", cursive;
 }
 .title {
-  font-size: 19px;
+  font-size: 20px;
   padding: 5px;
   font-weight: 900;
   color: #b9935a;
   letter-spacing: -1.5px;
+  font-family: "Unica One", cursive;
 }
 p {
   font-size: 19px;
