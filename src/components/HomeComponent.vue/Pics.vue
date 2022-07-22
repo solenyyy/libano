@@ -1,10 +1,57 @@
 <template>
   <div class="container" id="anchor2">
+    <div class="test" :scroll="handleScroll">
+      <svg
+        version="1.0"
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="250px"
+        viewBox="0 0 08190.100060 1084.000000"
+      >
+        <g
+          transform="translate(0.000000,1984.000000) scale(0.100000,-0.100000)"
+          class="path"
+          fill="transparent"
+          stroke="black"
+          stroke-width="60"
+        >
+          <path
+            d="M79805 19634 c-518 -340 -1324 -844 -1839 -1148 -1986 -1175 -3791
+-2037 -5591 -2669 -3102 -1089 -6407 -1520 -11188 -1458 -1157 15 -1659 28
+-3747 96 -1110 36 -1765 56 -2575 77 -649 17 -3113 17 -3645 0 -1736 -56
+-3092 -142 -4610 -293 -6970 -692 -13745 -2500 -19924 -5319 -446 -203 -889
+-413 -1491 -705 -601 -292 -899 -433 -1172 -554 -993 -440 -1744 -661 -2543
+-748 -230 -25 -817 -25 -1035 0 -551 64 -1004 183 -1480 389 -1532 662 -2841
+2126 -3615 4042 -39 98 -70 184 -68 191 2 7 77 80 168 162 1197 1075 2212
+2293 2974 3572 294 493 619 1131 791 1556 276 678 285 1160 30 1550 -58 89
+-207 234 -307 299 -239 155 -511 228 -863 229 -265 1 -488 -31 -760 -110 -703
+-204 -1415 -756 -1878 -1455 -425 -641 -661 -1350 -754 -2268 -25 -246 -25
+-943 0 -1210 69 -739 211 -1411 438 -2070 39 -113 73 -212 76 -221 5 -17 -114
+-124 -437 -390 -2470 -2037 -5797 -3725 -9665 -4904 -1594 -486 -3181 -859
+-5062 -1190 -29 -5 -33 -10 -33 -35 0 -19 5 -30 14 -30 28 0 795 142 1171 216
+5640 1119 10517 3263 13835 6084 100 85 189 155 197 155 10 0 33 -45 67 -130
+628 -1559 1621 -2846 2801 -3630 664 -441 1388 -725 2125 -835 356 -52 830
+-69 1155 -41 706 62 1380 235 2205 566 434 174 821 352 1670 765 4263 2077
+8582 3599 13295 4685 4843 1116 9883 1669 14875 1631 1234 -9 1832 -24 4505
+-111 2114 -69 2642 -79 4055 -80 1209 0 1541 5 2265 35 4117 172 7131 847
+10375 2323 1620 737 3387 1726 5183 2904 103 67 192 123 198 123 5 0 9 18 9
+40 0 22 -1 40 -2 39 -2 0 -88 -56 -193 -125z m-61402 -818 c329 -62 578 -200
+749 -415 204 -255 262 -607 172 -1034 -64 -305 -223 -696 -519 -1282 -752
+-1486 -1798 -2855 -3150 -4121 -248 -233 -376 -344 -395 -344 -30 0 -193 507
+-294 918 -217 878 -292 1810 -210 2602 69 669 235 1258 499 1775 190 371 403
+664 700 961 530 531 1083 832 1716 933 178 29 182 29 424 26 151 -2 247 -8
+308 -19z"
+            pathLength="1"
+          />
+        </g>
+      </svg>
+    </div>
     <h1 class="title">NUESTRA CARTA</h1>
     <p class="text">
       <em>Una carta tradicional</em> aunque sujeta a la
-      <u>innovación permanente</u> es la característica principal de la cocina
-      libanesa.
+      <u>innovación permanente</u>
+      es la característica <br />
+      principal de la cocina libanesa.
     </p>
     <div class="img">
       <img class="hummus" src="../../assets/new-pics/hummusbien.png" alt="" />
@@ -35,7 +82,7 @@
     </div>
     <div class="container-btn">
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
-        CARTA ONLINE
+        Carta Online
       </router-link>
     </div>
     <hr />
@@ -139,10 +186,8 @@ export default {
   color: white !important;
 }
 .test {
-  display: flex;
-  justify-content: center;
-  margin-top: -180px;
-  margin-bottom: -120px;
+  margin-top: -120px;
+  margin-bottom: -50px;
 }
 
 @keyframes dash {
@@ -161,7 +206,7 @@ hr {
   margin: 0 auto;
 }
 .title {
-  padding-top: 40px;
+  padding-top: 30px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 40px;
@@ -234,9 +279,9 @@ hr {
   filter: drop-shadow(0 0 0.25rem grey);
 }
 
-@media (min-width: 601px) and (max-width: 999px) {
+@media (min-width: 500px) and (max-width: 1050px) {
   .title {
-    padding-top: 40px;
+    padding-top: 60px;
     margin-bottom: 60px;
     letter-spacing: -2px;
   }
@@ -268,35 +313,39 @@ hr {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1051px) {
+  .test {
+  }
   .title {
-    padding-top: 40px;
-    margin-bottom: 60px;
+    padding-top: 90px;
+    margin-bottom: 70px;
     letter-spacing: -2px;
   }
   .position {
     padding: 25px;
   }
+
   .text,
   .position,
-  .position-kipe,
-  .position-tabule {
-    font-size: 20px;
+  .position-tabule,
+  .position-kipe {
+    text-align: center;
+    padding: 0;
   }
-  .hummus {
-    left: 73%;
 
-    margin-top: -50px;
-  }
-  .falafel {
-    left: 63%;
+  .hummus {
+    left: 71%;
     margin-top: -100px;
   }
+  .falafel {
+    left: 60%;
+    margin-top: -220px;
+  }
   .tabule {
-    margin-top: -90px;
+    margin-top: -200px;
   }
   .kipenaye {
-    margin-top: -70px;
+    margin-top: -200px;
   }
   hr {
     width: 60%;

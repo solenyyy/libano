@@ -10,9 +10,9 @@
     </div>
     <div class="btn-container">
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
-        CARTA ONLINE
+        Carta Online
       </router-link>
-      <a href="#" v-scroll-to="'#anchor'" class="menu-btn-2"> RESERVA </a>
+      <a href="#" v-scroll-to="'#anchor'" class="menu-btn-2"> Reserva </a>
     </div>
   </div>
 </template>
@@ -53,7 +53,6 @@ export default {
 .text {
   overflow: hidden;
   margin: 15px 0;
-
   font-family: "Unica One", cursive;
 }
 
@@ -143,7 +142,7 @@ export default {
   .menu-btn {
     margin: 0 auto 20px auto;
     border: 2px solid #b9935a;
-    background-color: transparent;
+    background-color: white;
     color: #b9935a !important;
     padding: 12px 122.5px;
   }

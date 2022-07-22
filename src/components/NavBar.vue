@@ -1,9 +1,9 @@
 <template>
   <nav>
     <div class="nav-links" v-on:click="openMobileNav()">
-      <a href="#" v-scroll-to="'#whoweare'">SOBRE NOSOTROS</a>
-      <a href="#" v-scroll-to="'#anchor2'">NUESTRA CARTA</a>
-      <a href="#" v-scroll-to="'#anchor'">RESERVAS</a>
+      <a href="#" v-scroll-to="'#whoweare'">Sobre Nosotros</a>
+      <a href="#" v-scroll-to="'#anchor2'">Nuestra Carta</a>
+      <a href="#" v-scroll-to="'#anchor'">Reservas</a>
     </div>
 
     <div v-on:click="openMobileNav()" id="burger">
@@ -85,6 +85,7 @@ export default {
 
 <style>
 nav {
+  font-family: "Unica One", cursive;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -118,11 +119,53 @@ a:active {
 }
 
 /* media queries */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 824px) {
+  nav {
+    font-size: 25px;
+    justify-content: flex-start;
+    min-height: 8vh;
+  }
   .nav-links {
-    width: 50%;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 92vh;
+    top: 8vh;
+    right: 0;
+    padding: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  div#burger {
+    display: block;
   }
 }
+.nav-active {
+  transform: translateX(0) !important;
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-9px, 10px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
 /* Mobile */
 @media screen and (max-width: 768px) {
   nav {
