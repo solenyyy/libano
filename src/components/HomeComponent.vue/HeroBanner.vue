@@ -29,7 +29,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 .parallax {
-  background-image: url(../../assets/opacity-background.png);
+  background-image: url(../../assets/background-blacked.jpg);
   background-size: 100%;
   min-height: 500px;
   background-attachment: fixed;
@@ -62,6 +62,7 @@ export default {
   letter-spacing: -1px;
   font-size: 3rem;
   font-weight: 900;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
 }
 
 .text-animated-two {
@@ -71,6 +72,7 @@ export default {
   text-align: center;
   font-size: 3.3rem;
   transform: translateY(1px);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
 }
 
 .aggettivi {
@@ -93,6 +95,7 @@ export default {
 .btn-container {
   margin-top: 40px;
   font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
 }
 .menu-btn {
   margin: 0px 5px;
@@ -121,7 +124,7 @@ export default {
 
 @media (max-width: 600px) {
   .parallax {
-    background-size: 1200px;
+    background-size: 500px;
     background-position: left;
   }
   .aggettivi {
