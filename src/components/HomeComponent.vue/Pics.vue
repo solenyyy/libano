@@ -2,47 +2,29 @@
   <div class="container" id="anchor2">
     <div class="test" :scroll="handleScroll">
       <svg
-        version="1.0"
+        id="Layer_2"
         xmlns="http://www.w3.org/2000/svg"
-        width="100%"
-        height="250px"
-        viewBox="0 0 08190.100060 1084.000000"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 2496.44 682.49"
       >
-        <g
-          transform="translate(0.000000,1984.000000) scale(0.100000,-0.100000)"
-          class="path"
-          fill="transparent"
-          stroke="black"
-          stroke-width="60"
-        >
-          <path
-            d="M79805 19634 c-518 -340 -1324 -844 -1839 -1148 -1986 -1175 -3791
--2037 -5591 -2669 -3102 -1089 -6407 -1520 -11188 -1458 -1157 15 -1659 28
--3747 96 -1110 36 -1765 56 -2575 77 -649 17 -3113 17 -3645 0 -1736 -56
--3092 -142 -4610 -293 -6970 -692 -13745 -2500 -19924 -5319 -446 -203 -889
--413 -1491 -705 -601 -292 -899 -433 -1172 -554 -993 -440 -1744 -661 -2543
--748 -230 -25 -817 -25 -1035 0 -551 64 -1004 183 -1480 389 -1532 662 -2841
-2126 -3615 4042 -39 98 -70 184 -68 191 2 7 77 80 168 162 1197 1075 2212
-2293 2974 3572 294 493 619 1131 791 1556 276 678 285 1160 30 1550 -58 89
--207 234 -307 299 -239 155 -511 228 -863 229 -265 1 -488 -31 -760 -110 -703
--204 -1415 -756 -1878 -1455 -425 -641 -661 -1350 -754 -2268 -25 -246 -25
--943 0 -1210 69 -739 211 -1411 438 -2070 39 -113 73 -212 76 -221 5 -17 -114
--124 -437 -390 -2470 -2037 -5797 -3725 -9665 -4904 -1594 -486 -3181 -859
--5062 -1190 -29 -5 -33 -10 -33 -35 0 -19 5 -30 14 -30 28 0 795 142 1171 216
-5640 1119 10517 3263 13835 6084 100 85 189 155 197 155 10 0 33 -45 67 -130
-628 -1559 1621 -2846 2801 -3630 664 -441 1388 -725 2125 -835 356 -52 830
--69 1155 -41 706 62 1380 235 2205 566 434 174 821 352 1670 765 4263 2077
-8582 3599 13295 4685 4843 1116 9883 1669 14875 1631 1234 -9 1832 -24 4505
--111 2114 -69 2642 -79 4055 -80 1209 0 1541 5 2265 35 4117 172 7131 847
-10375 2323 1620 737 3387 1726 5183 2904 103 67 192 123 198 123 5 0 9 18 9
-40 0 22 -1 40 -2 39 -2 0 -88 -56 -193 -125z m-61402 -818 c329 -62 578 -200
-749 -415 204 -255 262 -607 172 -1034 -64 -305 -223 -696 -519 -1282 -752
--1486 -1798 -2855 -3150 -4121 -248 -233 -376 -344 -395 -344 -30 0 -193 507
--294 918 -217 878 -292 1810 -210 2602 69 669 235 1258 499 1775 190 371 403
-664 700 961 530 531 1083 832 1716 933 178 29 182 29 424 26 151 -2 247 -8
-308 -19z"
-            pathLength="1"
-          />
+        <defs>
+          <clipPath id="clippath">
+            <rect class="cls-1" x="493.18" width="1940" height="682.49" />
+          </clipPath>
+        </defs>
+        <g id="Layer_3">
+          <g
+            class="path cls-3"
+            fill="transparent"
+            stroke="#b9935a"
+            stroke-width="10"
+          >
+            <path
+              class="cls-2"
+              d="M.18,464.51c183.55-33.56,374.37-28.61,557.53-63.71,183.16-35.11,369.61-123.4,436.6-275.5,5.93-13.47,10.51-29.66,1-41.48-12.78-15.9-41.9-12.35-60.17-1.19-50.59,30.92-54.4,95.22-40.25,147.51,17.15,63.4,68.08,131.19,143.09,131.37,38.55,.09,73.55-18.04,107.18-34.39,199.95-97.16,428.72-149.18,657.86-149.58,142.4-.25,288.42,18.66,424.84-16.78,99.71-25.9,186.8-79.19,267.99-135.72"
+              pathLength="1"
+            />
+          </g>
         </g>
       </svg>
     </div>
@@ -56,8 +38,12 @@
     <div class="img">
       <img class="hummus" src="../../assets/new-pics/hummusbien.png" alt="" />
       <p class="position">
-        El Líbano es uno de los <strong>clásicos de la comida árabe</strong> en
-        Santa Cruz de Tenerife.
+        El Líbano es uno de los
+        <strong
+          >clásicos de la comida <br />
+          árabe</strong
+        >
+        en Santa Cruz de Tenerife.
       </p>
     </div>
     <div class="img-2">
@@ -71,8 +57,8 @@
     </div>
     <div class="img-2">
       <p class="position-tabule">
-        <em>Disponemos de dos plantas</em>, capaces de reunir a casi un centenar
-        de comensales.
+        <em>Disponemos de dos plantas</em>, capaces de reunir <br />
+        a casi un centenar de comensales.
       </p>
       <img class="kipenaye" src="../../assets/new-pics/guarakbien.png" alt="" />
       <p class="final-text">
@@ -82,7 +68,7 @@
     </div>
     <div class="container-btn">
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
-        Carta Online
+        CARTA ONLINE
       </router-link>
     </div>
     <hr />
@@ -161,7 +147,7 @@ export default {
 .path.active {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  animation: dash 10s ease alternate forwards;
+  animation: dash 6s ease alternate forwards;
   animation-delay: 1s;
   animation-iteration-count: 1;
 }
@@ -169,7 +155,6 @@ export default {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
-  font-family: "Unica One", cursive;
   font-size: 19px;
   font-weight: 600;
 }
@@ -185,9 +170,10 @@ export default {
   border: 2px solid #b9935a;
   color: white !important;
 }
-.test {
-  margin-top: -120px;
-  margin-bottom: -50px;
+
+svg {
+  transform: scaleY(-1);
+  margin-top: -100px;
 }
 
 @keyframes dash {
@@ -212,17 +198,14 @@ hr {
   font-size: 40px;
   letter-spacing: -4px;
   color: #3f331e;
-  font-family: "Unica One", cursive;
 }
 .text {
   padding: 20px;
   margin-bottom: -30px;
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
 }
 .text-2 {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 19.5px;
   color: #3f331e;
   margin-top: -120px;
@@ -314,10 +297,11 @@ hr {
 }
 
 @media (min-width: 1051px) {
-  .test {
+  .final-text {
+    display: none;
   }
   .title {
-    padding-top: 90px;
+    padding-top: 10px;
     margin-bottom: 70px;
     letter-spacing: -2px;
   }
@@ -334,11 +318,11 @@ hr {
   }
 
   .hummus {
-    left: 71%;
+    left: 72.5%;
     margin-top: -100px;
   }
   .falafel {
-    left: 60%;
+    left: 62.5%;
     margin-top: -220px;
   }
   .tabule {

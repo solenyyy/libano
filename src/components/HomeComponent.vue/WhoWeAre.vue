@@ -76,7 +76,6 @@ export default {};
   margin-left: 15px;
   letter-spacing: -1px;
   color: #3f331e;
-  font-family: "Unica One", cursive;
 }
 .timeline {
   display: flex;
@@ -95,7 +94,6 @@ h2 {
   color: #b9935a;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: "Unica One", cursive;
 }
 p {
   text-align: justify;

@@ -57,7 +57,6 @@ export default {
   justify-content: center;
   text-align: center;
   color: #3f331e;
-  font-family: "Unica One", cursive;
 }
 a:link,
 a:visited,

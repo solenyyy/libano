@@ -3,20 +3,20 @@
     <h2 class="h2">CONTACTO</h2>
     <div class="info-booking-test">
       <div class="flex-item">
-        <p class="title"><strong>Horario</strong></p>
+        <p class="title"><strong>HORARIO</strong></p>
         <p>
           <strong> Lunes a Domingo</strong> <br />
           13:00 a 16:30 y de 20:00 a 23:30
         </p>
       </div>
       <div class="flex-item">
-        <p class="title"><strong>Dirección</strong></p>
+        <p class="title"><strong>DIRECCIÓN</strong></p>
         <p>Calle de Santiago Cuadrado, 36.</p>
         <p>Santa Cruz de Tenerife.</p>
         <p><strong>Disponemos de parking privado</strong></p>
       </div>
       <div class="flex-item">
-        <p class="title"><strong>Teléfono / email</strong></p>
+        <p class="title"><strong>TELÉFONO / EMAIL</strong></p>
         <div class="bottom">
           <p>
             <a href="tel:+34922285914">+34 <strong> 922 28 59 14</strong></a>
@@ -76,7 +76,6 @@
   padding-top: 40px;
   letter-spacing: -4px;
   color: #3f331e;
-  font-family: "Unica One", cursive;
 }
 .title {
   font-size: 20px;
@@ -84,12 +83,10 @@
   font-weight: 900;
   color: #b9935a;
   letter-spacing: -1.5px;
-  font-family: "Unica One", cursive;
 }
 p {
   font-size: 19px;
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .maps-test {

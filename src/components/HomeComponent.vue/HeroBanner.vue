@@ -2,7 +2,7 @@
   <div class="container parallax">
     <div class="aggettivi">
       <div class="text">
-        <div class="text-animated-one">Restaurante El Líbano</div>
+        <div class="text-animated-one">RESTAURANTE EL LÍBANO</div>
       </div>
       <div class="text">
         <div class="text-animated-two">مطعم لبنان</div>
@@ -10,9 +10,9 @@
     </div>
     <div class="btn-container">
       <router-link class="menu-btn" to="/menu" @click="scrollToTop">
-        Carta Online
+        CARTA ONLINE
       </router-link>
-      <a href="#" v-scroll-to="'#anchor'" class="menu-btn-2"> Reserva </a>
+      <a href="#" v-scroll-to="'#anchor'" class="menu-btn-2"> RESERVA </a>
     </div>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 .parallax {
-  background-image: url(../../assets/background.jpeg);
+  background-image: url(../../assets/opacity-background.png);
   background-size: 100%;
   min-height: 500px;
   background-attachment: fixed;
@@ -53,7 +53,6 @@ export default {
 .text {
   overflow: hidden;
   margin: 15px 0;
-  font-family: "Unica One", cursive;
 }
 
 .text-animated-one {
@@ -89,12 +88,11 @@ export default {
   margin: 0 auto;
   text-align: center;
   height: 540px;
-  color: #3f331e;
+  color: white;
 }
 .btn-container {
   margin-top: 40px;
   font-weight: 600;
-  font-family: "Unica One", cursive;
 }
 .menu-btn {
   margin: 0px 5px;
@@ -123,7 +121,8 @@ export default {
 
 @media (max-width: 600px) {
   .parallax {
-    background-size: 300%;
+    background-size: 1200px;
+    background-position: left;
   }
   .aggettivi {
     font-size: 3rem;
@@ -142,8 +141,8 @@ export default {
   .menu-btn {
     margin: 0 auto 20px auto;
     border: 2px solid #b9935a;
-    background-color: white;
-    color: #b9935a !important;
+    background-color: transparent;
+    color: white !important;
     padding: 12px 122.5px;
   }
   .menu-btn-2 {
