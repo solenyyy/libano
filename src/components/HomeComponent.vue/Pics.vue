@@ -57,8 +57,8 @@
     </div>
     <div class="img-2">
       <p class="position-tabule">
-        <em>Disponemos de dos plantas</em>, capaces de reunir <br />
-        a casi un centenar de comensales.
+        <em>Disponemos de dos plantas</em>, capaces de <br />reunir a casi un
+        centenar de comensales.
       </p>
       <img class="kipenaye" src="../../assets/new-pics/guarakbien.png" alt="" />
       <p class="final-text">
