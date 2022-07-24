@@ -29,9 +29,9 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 .parallax {
-  background-image: url(../../assets/background-blacked.jpg);
+  background-image: url(../../assets/background-blacked-all.jpg);
   background-size: 100%;
-  min-height: 500px;
+  min-height: 550px;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -124,7 +124,8 @@ export default {
 
 @media (max-width: 600px) {
   .parallax {
-    background-size: 130%;
+    background-size: 300%;
+    background-position: 18%;
   }
   .aggettivi {
     font-size: 3rem;
@@ -168,7 +169,7 @@ export default {
   .menu-btn {
     background-color: transparent;
     border: 2px solid #b9935a;
-    color: black !important;
+    color: white !important;
   }
   .menu-btn:hover {
     background-color: #b9935a;
@@ -185,7 +186,7 @@ export default {
 a:link,
 a:visited,
 a:active {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 </style>
