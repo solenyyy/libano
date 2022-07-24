@@ -125,7 +125,6 @@ export default {
 @media (max-width: 600px) {
   .parallax {
     background-size: 300%;
-    background-position: 18%;
   }
   .aggettivi {
     font-size: 3rem;
