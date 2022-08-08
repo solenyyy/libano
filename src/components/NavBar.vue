@@ -17,7 +17,6 @@
 <script>
 export default {
   name: "Navbar",
-
   methods: {
     openMobileNav() {
       const burger = document.getElementById("burger");
@@ -40,45 +39,9 @@ export default {
         }
       });
     },
-    openDropdownNav() {
-      const dropdownLink = document.querySelectorAll(".dropdown-link");
-      dropdownLink.forEach((dropdown) => {
-        dropdown.addEventListener("mouseover", () => {
-          dropdown.children[1].style.display = "block";
-        });
-        dropdown.addEventListener("mouseleave", () => {
-          dropdown.children[1].style.display = "none";
-        });
-      });
+    mounted() {
+      this.openDropdownNav();
     },
-
-    countClicksOnMobileDropdown() {
-      const dropdownLink = document.querySelectorAll(".dropdown-link");
-      dropdownLink.forEach((dropdown) => {
-        let counts = dropdown.clicks || 0;
-        dropdown.addEventListener("click", () => {
-          counts++;
-          if (counts % 2 == 0) {
-            window.location.href = dropdown.children[0].getAttribute("href");
-          } else {
-            event.preventDefault();
-            dropdown.children[1].style.display = "block";
-            setTimeout(() => {
-              dropdown.children[1].style.display = "none";
-            }, 5000);
-          }
-        });
-        setTimeout(() => {
-          counts = 0;
-        }, 8000);
-      });
-    },
-  },
-  mounted() {
-    this.openDropdownNav();
-    if (window.innerWidth < 768) {
-      this.countClicksOnMobileDropdown();
-    }
   },
 };
 </script>
@@ -98,7 +61,6 @@ nav {
   width: 40%;
   line-height: 75px;
 }
-
 #burger {
   display: none;
   cursor: pointer;
@@ -110,14 +72,12 @@ nav {
   background-color: #3f331e;
   transition: all 0.3s ease-in;
 }
-
 a:link,
 a:visited,
 a:active {
   color: #3f331e;
   text-decoration: none;
 }
-
 /* media queries */
 @media screen and (min-width: 824px) {
   nav {
@@ -165,7 +125,6 @@ a:active {
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
-
 /* Mobile */
 @media screen and (max-width: 768px) {
   nav {

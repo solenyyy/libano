@@ -29,7 +29,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Unica+One&display=swap");
 .parallax {
-  background-image: url(../../assets/background-blacked-all.jpg);
+  background-image: url(../../assets/background.jpeg);
   background-size: 100%;
   min-height: 550px;
   background-attachment: fixed;
@@ -90,19 +90,18 @@ export default {
   margin: 0 auto;
   text-align: center;
   height: 540px;
-  color: white;
+  color: #3f331e;
 }
 .btn-container {
   margin-top: 40px;
   font-weight: 600;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
 }
 .menu-btn {
   margin: 0px 5px;
   padding: 9px 100px;
   background-color: #b9935a;
   border: 2px solid #b9935a;
-  color: white !important;
+  color: #b9935a !important;
 }
 .menu-btn-2 {
   padding: 9px 122.5px;
@@ -144,7 +143,7 @@ export default {
     margin: 0 auto 20px auto;
     border: 2px solid #b9935a;
     background-color: transparent;
-    color: white !important;
+    color: #b9935a !important;
     padding: 12px 122.5px;
   }
   .menu-btn-2 {

@@ -172,8 +172,7 @@ export default {
 }
 
 svg {
-  transform: scaleY(-1);
-  margin-top: -100px;
+  margin-top: -50px;
 }
 
 @keyframes dash {
