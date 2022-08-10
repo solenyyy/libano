@@ -122,6 +122,12 @@ export default {
 /* media queries */
 
 @media (max-width: 600px) {
+  a:link,
+  a:visited,
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
   .parallax {
     background-size: 300%;
   }
@@ -161,13 +167,19 @@ export default {
 }
 
 @media (min-width: 1100px) {
+  a:link,
+  a:visited,
+  a:active {
+    color: #b9935a;
+    text-decoration: none;
+  }
   .container {
     align-items: center;
   }
   .menu-btn {
     background-color: transparent;
     border: 2px solid #b9935a;
-    color: white !important;
+    color: #b9935a;
   }
   .menu-btn:hover {
     background-color: #b9935a;
@@ -180,11 +192,5 @@ export default {
   .container {
     height: 650px;
   }
-}
-a:link,
-a:visited,
-a:active {
-  color: white;
-  text-decoration: none;
 }
 </style>

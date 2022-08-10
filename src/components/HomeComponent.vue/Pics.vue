@@ -321,7 +321,7 @@ hr {
     margin-top: -100px;
   }
   .falafel {
-    left: 62.5%;
+    left: 63%;
     margin-top: -220px;
   }
   .tabule {
